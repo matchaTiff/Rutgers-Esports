@@ -1,0 +1,57 @@
+body {
+  box-sizing: border-box;
+}
+.background {
+  position: relative;
+  background-color: #1d1d1d;
+  min-height: 100vh;
+}
+
+.title {
+  position: relative;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.grid-container {
+  position: relative;
+  width: 50vw;
+  height: auto;
+  background-color: #1d1d1d;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.orgContainer {
+  margin-bottom: 1rem;
+  min-width: 10vw;
+}
+
+.orgTab {
+  position: relative;
+  border-width: 0.5rem;
+  border-color: #343434;
+  border-style: solid;
+  background-color: #1d1d1d;
+  color: #f7f7f7;
+  width: 100%;
+  height: 10vw;
+  transition: 0.5s;
+}
+
+.orgTab p {
+  position: relative;
+  text-align: center;
+  top: 30%;
+  font-size: 130%;
+}
+
+.orgTab:hover {
+  border-color: #c94949;
+}
+
+@media screen and (max-width: 960px) {
+}
