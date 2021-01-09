@@ -13,8 +13,10 @@
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-dynamic-font": "^2.0.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.4"
+    "react-scripts": "^3.4.4",
+    "react-window-size": "^1.2.2"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  margin-bottom: 10px;
 }
 
 .facebookContainer {
