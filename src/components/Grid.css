@@ -130,7 +130,7 @@ body {
   margin-top: 3rem;
   margin-right: 1rem;
   float: right;
-  width: 30%;
+  width: 100%;
 }
 
 @media screen and (max-width: 960px) {
