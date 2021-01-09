@@ -1,0 +1,64 @@
+.socialsContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80vh;
+}
+
+.facebookContainer {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 10%;
+  background-color: white;
+  border-color: rgb(66, 103, 178);
+  border-width: 3px;
+  border-style: solid;
+  transition: 1s;
+  color: rgb(66, 103, 178);
+  padding-top: 0.5rem;
+}
+
+.facebookContainer:hover {
+  cursor: pointer;
+  background-color: rgb(66, 103, 178);
+  color: white;
+}
+
+.twitterContainer {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 10%;
+  background-color: white;
+  border-color: rgb(29, 161, 242);
+  border-width: 3px;
+  border-style: solid;
+  transition: 1s;
+  color: rgb(29, 161, 242);
+  padding-top: 0.5rem;
+}
+
+.twitterContainer:hover {
+  cursor: pointer;
+  background-color: rgb(29, 161, 242);
+  color: white;
+}
+
+.twitchContainer {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 10%;
+  background-color: white;
+  border-color: rgb(145, 71, 255);
+  border-width: 3px;
+  border-style: solid;
+  transition: 1s;
+  color: rgb(145, 71, 255);
+  padding-top: 0.5rem;
+}
+
+.twitchContainer:hover {
+  cursor: pointer;
+  background-color: rgb(145, 71, 255);
+  color: white;
+}
