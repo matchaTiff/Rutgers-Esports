@@ -23,7 +23,7 @@ function ClubsGrid(props){
     return(
         <div>
             <div className="cotainer-fluid background">
-                <div className="title"> Clubs </div>
+                <div className="title">OUR CLUBS</div>
                 {visible && <div className="popUpBackground" onClick={() => visibility(clubPop)}>
                         <div className="popUpContainer">
                             <div className="orgTitle">
@@ -51,7 +51,7 @@ function ClubsGrid(props){
                             {row.map((club) =>(
                                 <div className="orgContainer col-sm-3">
                                 <div className="orgTab" onClick={() => visibility(club)}>
-                                    {/*Added this style thing that changes size based on amount of characters*/}
+                                    {/*The following changes size based on amount of characters and viewport width*/}
                                     <p style={{fontSize: (33-club.name.length)*0.055+"vw"}}> {club.name}</p>   
                                 </div>
                                 
