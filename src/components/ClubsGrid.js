@@ -2,13 +2,14 @@ import React, {Component, useState} from "react";
 import SocialsBar from './SocialsBar.js';
 import './Grid.css';
 import './Socials.css';
-import clubs from '../data/clubsdata.js';
+import Grid from '@material-ui/core/Grid';
+import clubs from '../data/clubsdata.js'
 
 
 function ClubsGrid(props){
     const [clubPop, setClubPop] = useState({});
     const [visible, setVisible] = useState(false);
-    const info = clubs.rows;
+    const info = clubs.orgs;
     
     const visibility = (club) => {
         if(visible){
@@ -46,20 +47,25 @@ function ClubsGrid(props){
                 </div>}
                 <div className="grid-container">
 
-                    {info.map((row) => (
-                        <div className="row">
-                            {row.map((club) =>(
-                                <div className="orgContainer col-sm-3">
-                                <div className="orgTab" onClick={() => visibility(club)}>
-                                    {/*The following changes size based on amount of characters and viewport width*/}
-                                    <p style={{fontSize: (33-club.name.length)*0.055+"vw"}}> {club.name}</p>   
-                                </div>
+                    <Grid container spacing={3}>
+                        {info.map((club) => (
+
+                           
                                 
-                            </div>
+                            <Grid item xs={6} sm={3} >
+                                <div className="orgContainer">
+                                    <div  className="orgTab" style={{backgroundImage: "url(" +  club.logo  + ")"}} onClick={() => visibility(club)}>
+                                        {/*The following changes size based on amount of characters and viewport width*/}
+                                        <p style={{fontSize: (33-club.name.length)*0.055+"vw"}}> {club.name}</p>   
+                                    </div>
+                                    
+                                </div>
+                            </Grid>   
+                                    
+                                
                             ))}
-                        </div>
-                    ))}
-                
+                    </Grid>
+                    
                     
                 </div>
                

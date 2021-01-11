@@ -1,6 +1,6 @@
 export default {
-    rows : [
-        [
+    orgs: [
+        
             {
                 name: "CS:GO",
                 picture: "/Pictures/Clubs/csgo.png",
@@ -13,7 +13,8 @@ export default {
                         type: "discord",
                         link: "https://discord.gg/pUzpQXY"
                     },
-                ]
+                ],
+                logo: "/Pictures/Logos/csgoicon.png"
             },
             {
                 name: "DOTA",
@@ -27,7 +28,8 @@ export default {
                         type: "discord",
                         link: "https://discord.gg/yFKghbJ"
                     },
-                ]
+                ],
+                logo: "/Pictures/Logos/dota2.png"
             },
             {
                 name: "FIGHTING GAMES",
@@ -41,7 +43,8 @@ export default {
                         type: "discord",
                         link: "https://discord.gg/7xqp8WD"
                     },
-                ]
+                ],
+                logo: "/Pictures/Logos/Sf5logo.png"
             },
             {
                 name: "HEARTHSTONE",
@@ -51,11 +54,12 @@ export default {
                         type: "discord",
                         link: "https://discord.gg/b7aeQhu"
                     },
-                ]
-            }
-        ],
+                ],
+                logo: "/Pictures/Logos/hearthstone.png"
+            },
+        
 
-        [
+        
             {
                 name: "LEAGUE OF LEGENDS",
                 picture: "/Pictures/Clubs/lol.png",
@@ -68,7 +72,8 @@ export default {
                         type: "discord",
                         link: "https://discord.gg/skqkEYD"
                     },
-                ]
+                ],
+                logo: "/Pictures/Logos/LoLicon.png"
             },
             {
                 name: "OVERWATCH",
@@ -82,7 +87,8 @@ export default {
                         type: "discord",
                         link: "https://discord.gg/U6P3Dtp"
                     },
-                ]
+                ],
+                logo: "/Pictures/Logos/Overwatch.png"
             },
             {
                 name: "POKEMON",
@@ -96,7 +102,8 @@ export default {
                         type: "discord",
                         link: "https://discord.gg/WCgKXts"
                     },
-                ]
+                ],
+                logo: "/Pictures/Logos/Pokeball2.png"
             },
             {
                 name: "RAINBOW SIX SIEGE",
@@ -110,11 +117,12 @@ export default {
                         type: "discord",
                         link: " https://discord.gg/3KuRSFH"
                     },
-                ]
-            }
-        ],
+                ],
+                logo: "/Pictures/Logos/rainbow6.png"
+            },
+        
 
-        [
+        
             {
                 name: "RHYTHM GAMES",
                 picture: "/Pictures/Clubs/rgc.png",
@@ -127,7 +135,8 @@ export default {
                         type: "discord",
                         link: "https://discord.gg/azP28Hd"
                     },
-                ]
+                ],
+                logo: "/Pictures/Logos/RGCLOGO2.png"
             },
             {
                 name: "ROCKET LEAGUE",
@@ -141,7 +150,8 @@ export default {
                         type: "discord",
                         link: "https://discord.gg/nuSzTWw"
                     },
-                ]
+                ],
+                logo: "/Pictures/Logos/RocketLeague.png"
             },
             {
                 name: "SMASH MELEE",
@@ -155,7 +165,8 @@ export default {
                         type: "discord",
                         link: "https://discord.gg/SEDm5MM"
                     },
-                ]
+                ],
+                logo: "/Pictures/Logos/smashMelee.png"
             },
             {
                 name: "SMASH ULTIMATE",
@@ -174,9 +185,10 @@ export default {
                         link: "https://discord.gg/8BcAwgk"
                     },
                     
-                ]
+                ],
+                logo: "/Pictures/Logos/SmashUltimateWhite.png"
             }
-        ]
+        
         
     ]
     

@@ -5,6 +5,7 @@ body {
   position: relative;
   background-color: #1d1d1d;
   min-height: 85vh;
+  padding-bottom: 3rem;
 }
 
 .title {
@@ -35,31 +36,38 @@ body {
 }
 
 .orgContainer {
-  margin-bottom: 1vw;
   min-width: 10vw;
 }
 
 .orgTab {
   position: relative;
   border-width: 0.5rem;
-  border-color: #343434;
+  border-color: rgb(51, 51, 51);
   border-style: solid;
   background-color: #1d1d1d;
   justify-content: center;
-  color: #f7f7f7;
+  color: rgb(0, 0, 0, 0);
   width: 100%;
   height: 10vw;
   transition: 0.5s;
   display: flex;
   flex-direction: column;
   resize: vertical;
-  margin-bottom: 1vw;
+  background-size: 75%, 75%;
+  background-repeat: no-repeat;
+  background-position: center, center;
 }
 
 .orgTab p {
   margin: 0;
   text-align: center;
   font-weight: 800;
+}
+
+.orgTab:hover {
+  border-color: #c94949;
+  color: rgba(255, 255, 255);
+  background-size: 0%, 0%;
 }
 
 @media screen and (max-width: 580px) {
@@ -73,6 +81,8 @@ body {
 
 .orgTab:hover {
   border-color: #c94949;
+  color: rgba(255, 255, 255);
+  background-image: url("");
 }
 
 .popUpBackground {
@@ -130,7 +140,7 @@ body {
 }
 
 .popUpBody {
-  padding:20px;
+  padding: 20px;
   background-color: #1d1d1d;
   width: 100%;
   font-size: large;
