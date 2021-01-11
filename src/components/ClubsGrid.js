@@ -20,8 +20,17 @@ function ClubsGrid(props){
         else{
             setVisible(true);
             setClubPop(club);
+            scrollToTop();
         }
     }
+
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+    };
+
 
     return(
         <div>
@@ -37,7 +46,7 @@ function ClubsGrid(props){
                                 <p>{clubPop.name}</p>
                             </div>
                             <div>
-                                <Carousel plugins={['infinite',{ resolve: autoplayPlugin,options: {interval: 5000,}},]} animationSpeed={1000}>
+                                <Carousel plugins={['infinite',{ resolve: autoplayPlugin,options: {interval: 4000,}},]} animationSpeed={1000}>
                                     {clubPop.pictures.map((pic) =>(
 
                                     <img className="orgPicture" src={pic}/>
