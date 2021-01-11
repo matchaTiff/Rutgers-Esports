@@ -29,7 +29,7 @@ function SocialsBar(props){
         <div className="socialsContainer" style={{flexDirection: flow}}>
             {props.socials.map((social) => (
             <a href={social.link} target="_blank">
-                <div className={social.type + "Container"}>
+                <div className={social.type + "Container" + " socContainer"}>
                     
                         <i class={"fab fa-" + social.type + (social.type === "facebook" ? "-f" : "")}></i>
                     

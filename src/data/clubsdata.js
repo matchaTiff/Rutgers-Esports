@@ -245,6 +245,14 @@ export default {
                         type: "discord",
                         link: "https://discord.gg/8BcAwgk"
                     },
+                    {
+                        type: "linkedin",
+                        link: "https://discord.gg/8BcAwgk"
+                    },
+                    {
+                        type: "youtube",
+                        link: "https://discord.gg/8BcAwgk"
+                    },
                     
                 ],
                 logo: "/Pictures/Logos/SmashUltimateWhite.png"
