@@ -118,7 +118,6 @@ body {
   display: flex;
   flex-direction: column;
   z-index: 2;
-  padding-bottom: 3rem;
 }
 
 .orgTitle {
@@ -172,7 +171,7 @@ body {
   .orgTab p {
     margin: 0;
     text-align: center;
-    font-size: 10px !important;
+    font-size: 20px !important;
     font-weight: 800;
   }
 

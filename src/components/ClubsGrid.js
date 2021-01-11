@@ -3,7 +3,9 @@ import SocialsBar from './SocialsBar.js';
 import './Grid.css';
 import './Socials.css';
 import Grid from '@material-ui/core/Grid';
-import clubs from '../data/clubsdata.js'
+import clubs from '../data/clubsdata.js';
+import Carousel,  { autoplayPlugin } from '@brainhubeu/react-carousel';
+import '@brainhubeu/react-carousel/lib/style.css';
 
 
 function ClubsGrid(props){
@@ -34,9 +36,14 @@ function ClubsGrid(props){
                             <div className="orgTitle">
                                 <p>{clubPop.name}</p>
                             </div>
-                                <img className="orgPicture" src={clubPop.picture} alt="Not Working"></img>
-                                
-                        
+                            <div>
+                                <Carousel plugins={['infinite',{ resolve: autoplayPlugin,options: {interval: 5000,}},]} animationSpeed={1000}>
+                                    {clubPop.pictures.map((pic) =>(
+
+                                    <img className="orgPicture" src={pic}/>
+                                    ))}
+                                </Carousel>
+                            </div>
                            
                             <div className="popUpBody">
                                 <div className="socialsBar">
