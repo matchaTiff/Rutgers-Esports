@@ -3,6 +3,10 @@ export default {
             {
                 name: "CALL OF DUTY",
                 picture: "/Pictures/Clubs/CODColdWar.png",
+                pictures: [
+                    "/Pictures/Clubs/CODColdWar.png",
+                    "/Pictures/Clubs/overwatch.jpg"
+                ],
                 socials: [
                     {
                         type: "discord",
@@ -14,6 +18,10 @@ export default {
             {
                 name: "CS:GO",
                 picture: "/Pictures/Clubs/csgo.png",
+                pictures: [
+                    "/Pictures/Clubs/csgo.png",
+                    "/Pictures/Clubs/overwatch.jpg"
+                ],
                 socials: [
                     {
                         type: "facebook",
@@ -29,6 +37,10 @@ export default {
             {
                 name: "DOTA",
                 picture: "/Pictures/Clubs/dota.png",
+                pictures: [
+                    "/Pictures/Clubs/dota.png",
+                    "/Pictures/Clubs/overwatch.jpg"
+                ],
                 socials:[
                     {
                         type: "facebook",
@@ -44,6 +56,10 @@ export default {
             {
                 name: "FIGHTING GAMES",
                 picture: "/Pictures/Clubs/fgc.png",
+                pictures: [
+                    "/Pictures/Clubs/fgc.png",
+                    "/Pictures/Clubs/overwatch.jpg"
+                ],
                 socials:[
                     {
                         type:"facebook",
@@ -59,6 +75,10 @@ export default {
             {
                 name: "HEARTHSTONE",
                 picture: "/Pictures/Clubs/hs.png",
+                pictures: [
+                    "/Pictures/Clubs/hs.png",
+                    "/Pictures/Clubs/overwatch.jpg"
+                ],
                 socials:[
                     {
                         type: "discord",
@@ -73,6 +93,10 @@ export default {
             {
                 name: "LEAGUE OF LEGENDS",
                 picture: "/Pictures/Clubs/lol.png",
+                pictures: [
+                    "/Pictures/Clubs/lol.png",
+                    "/Pictures/Clubs/overwatch.jpg"
+                ],
                 socials:[
                     {
                         type: "facebook",
@@ -88,6 +112,10 @@ export default {
             {
                 name: "OVERWATCH",
                 picture: "/Pictures/Clubs/overwatch.jpg",
+                pictures: [
+                    "/Pictures/Clubs/overwatch.jpg",
+                    "/Pictures/Clubs/overwatch.jpg"
+                ],
                 socials:[
                     {
                         type: "facebook",
@@ -103,6 +131,10 @@ export default {
             {
                 name: "POKEMON",
                 picture: "/Pictures/Clubs/pkmn.png",
+                pictures: [
+                    "/Pictures/Clubs/pkmn.png",
+                    "/Pictures/Clubs/overwatch.jpg"
+                ],
                 socials:[
                     {
                         type: "facebook",
@@ -118,6 +150,10 @@ export default {
             {
                 name: "RAINBOW SIX SIEGE",
                 picture: "/Pictures/Clubs/r6.png",
+                pictures: [
+                    "/Pictures/Clubs/r6.png",
+                    "/Pictures/Clubs/overwatch.jpg"
+                ],
                 socials:[
                     {
                         type: "facebook",
@@ -136,6 +172,10 @@ export default {
             {
                 name: "RHYTHM GAMES",
                 picture: "/Pictures/Clubs/rgc.png",
+                pictures: [
+                    "/Pictures/Clubs/rgc.png",
+                    "/Pictures/Clubs/overwatch.jpg"
+                ],
                 socials:[
                     {
                         type: "facebook",
@@ -151,6 +191,10 @@ export default {
             {
                 name: "ROCKET LEAGUE",
                 picture: "/Pictures/Clubs/rl.png",
+                pictures: [
+                    "/Pictures/Clubs/rl.png",
+                    "/Pictures/Clubs/overwatch.jpg"
+                ],
                 socials:[
                     {
                         type: "facebook",
@@ -166,6 +210,10 @@ export default {
             {
                 name: "SMASH MELEE",
                 picture: "/Pictures/Clubs/melee.png",
+                pictures: [
+                    "/Pictures/Clubs/melee.png",
+                    "/Pictures/Clubs/overwatch.jpg"
+                ],
                 socials:[
                     {
                         type: "facebook",
@@ -180,7 +228,10 @@ export default {
             },
             {
                 name: "SMASH ULTIMATE",
-                picture: "/Pictures/Clubs/ultimate.png",
+                pictures: [
+                    "/Pictures/Clubs/ultimate.png",
+                    "/Pictures/Clubs/overwatch.jpg"
+                ],
                 socials:[
                     {
                         type: "facebook",
