@@ -65,9 +65,23 @@ body {
 }
 
 .orgTab:hover {
-  border-color: #c94949;
-  color: rgba(255, 255, 255);
+  border-color: rgb(201, 73, 73);
+  color: rgb(201, 73, 73);
   background-size: 0%, 0%;
+}
+
+.exitPop {
+  position: absolute;
+  left: 72.5%;
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  color: white;
+  transition: 0.5s;
+}
+
+.exitPop:hover {
+  color: rgb(201, 73, 73);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 580px) {
@@ -81,7 +95,7 @@ body {
 
 .orgTab:hover {
   border-color: #c94949;
-  color: rgba(255, 255, 255);
+  color: rgb(201, 73, 73);
   background-image: url("");
 }
 
@@ -97,6 +111,13 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
   overflow-y: auto;
   scrollbar-width: none;
+  display: flex;
+}
+
+.filler {
+  z-index: 1;
+  width: 23vw;
+  resize: vertical;
 }
 
 .popUpBackground::-webkit-scrollbar {
@@ -111,6 +132,7 @@ body {
   width: 50vw;
   display: flex;
   flex-direction: column;
+  z-index: 2;
 }
 
 .orgTitle {

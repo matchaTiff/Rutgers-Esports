@@ -1,6 +1,16 @@
 export default {
     orgs: [
-        
+            {
+                name: "CALL OF DUTY",
+                picture: "/Pictures/Clubs/CODColdWar.png",
+                socials: [
+                    {
+                        type: "discord",
+                        link: "https://discord.gg/ERUvB6Z"
+                    },
+                ],
+                logo: "/Pictures/Logos/COD.png"
+            },
             {
                 name: "CS:GO",
                 picture: "/Pictures/Clubs/csgo.png",
@@ -88,7 +98,7 @@ export default {
                         link: "https://discord.gg/U6P3Dtp"
                     },
                 ],
-                logo: "/Pictures/Logos/Overwatch.png"
+                logo: "/Pictures/Logos/OverwatchWhite.png"
             },
             {
                 name: "POKEMON",

@@ -25,8 +25,12 @@ function ClubsGrid(props){
         <div>
             <div className="cotainer-fluid background">
                 <div className="title">OUR CLUBS</div>
-                {visible && <div className="popUpBackground" onClick={() => visibility(clubPop)}>
-                        <div className="popUpContainer">
+                {visible && <div className="popUpBackground" >
+                    <div className="filler" onClick={() => visibility(clubPop)}></div>
+                        <div className="popUpContainer" >
+                            <div className="exitPop" onClick={() => visibility(clubPop)}>
+                                <i class="fas fa-times"></i>
+                            </div>
                             <div className="orgTitle">
                                 <p>{clubPop.name}</p>
                             </div>
@@ -43,7 +47,7 @@ function ClubsGrid(props){
                             </div>
 
                         </div>
-                        
+                        <div className="filler" onClick={() => visibility(clubPop)}></div>   
                 </div>}
                 <div className="grid-container">
 
