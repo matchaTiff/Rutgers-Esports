@@ -13,7 +13,25 @@ export default {
                         link: "https://discord.gg/ERUvB6Z"
                     },
                 ],
-                logo: "/Pictures/Logos/COD.png"
+                logo: "/Pictures/Logos/COD.png",
+                people: [
+                    {
+                        name: "Victor Okoye",
+                        role: "President"
+                    },
+                    {
+                        name: "Jeff Zhang",
+                        role: "Vice President"
+                    },
+                    {
+                        name: "Alexander Li",
+                        role: "Treasurer"
+                    },
+                    {
+                        name: "Kevin Su",
+                        role: "Competitive Manager"
+                    },
+                ]
             },
             {
                 name: "CS:GO",
@@ -32,7 +50,25 @@ export default {
                         link: "https://discord.gg/pUzpQXY"
                     },
                 ],
-                logo: "/Pictures/Logos/csgoicon.png"
+                logo: "/Pictures/Logos/csgoicon.png",
+                people: [
+                    {
+                        name: "Victor Okoye",
+                        role: "President"
+                    },
+                    {
+                        name: "Jeff Zhang",
+                        role: "Vice President"
+                    },
+                    {
+                        name: "Alexander Li",
+                        role: "Treasurer"
+                    },
+                    {
+                        name: "Kevin Su",
+                        role: "Competitive Manager"
+                    },
+                ]
             },
             {
                 name: "DOTA",
@@ -51,7 +87,25 @@ export default {
                         link: "https://discord.gg/yFKghbJ"
                     },
                 ],
-                logo: "/Pictures/Logos/dota2.png"
+                logo: "/Pictures/Logos/dota2.png",
+                people: [
+                    {
+                        name: "Victor Okoye",
+                        role: "President"
+                    },
+                    {
+                        name: "Jeff Zhang",
+                        role: "Vice President"
+                    },
+                    {
+                        name: "Alexander Li",
+                        role: "Treasurer"
+                    },
+                    {
+                        name: "Kevin Su",
+                        role: "Competitive Manager"
+                    },
+                ]
             },
             {
                 name: "FIGHTING GAMES",
@@ -70,7 +124,25 @@ export default {
                         link: "https://discord.gg/7xqp8WD"
                     },
                 ],
-                logo: "/Pictures/Logos/Sf5logo.png"
+                logo: "/Pictures/Logos/Sf5logo.png",
+                people: [
+                    {
+                        name: "Victor Okoye",
+                        role: "President"
+                    },
+                    {
+                        name: "Jeff Zhang",
+                        role: "Vice President"
+                    },
+                    {
+                        name: "Alexander Li",
+                        role: "Treasurer"
+                    },
+                    {
+                        name: "Kevin Su",
+                        role: "Competitive Manager"
+                    },
+                ]
             },
             {
                 name: "HEARTHSTONE",
@@ -85,7 +157,25 @@ export default {
                         link: "https://discord.gg/b7aeQhu"
                     },
                 ],
-                logo: "/Pictures/Logos/hearthstone.png"
+                logo: "/Pictures/Logos/hearthstone.png",
+                people: [
+                    {
+                        name: "Victor Okoye",
+                        role: "President"
+                    },
+                    {
+                        name: "Jeff Zhang",
+                        role: "Vice President"
+                    },
+                    {
+                        name: "Alexander Li",
+                        role: "Treasurer"
+                    },
+                    {
+                        name: "Kevin Su",
+                        role: "Competitive Manager"
+                    },
+                ]
             },
         
 
@@ -107,7 +197,25 @@ export default {
                         link: "https://discord.gg/skqkEYD"
                     },
                 ],
-                logo: "/Pictures/Logos/LoLicon.png"
+                logo: "/Pictures/Logos/LoLicon.png",
+                people: [
+                    {
+                        name: "Victor Okoye",
+                        role: "President"
+                    },
+                    {
+                        name: "Jeff Zhang",
+                        role: "Vice President"
+                    },
+                    {
+                        name: "Alexander Li",
+                        role: "Treasurer"
+                    },
+                    {
+                        name: "Kevin Su",
+                        role: "Competitive Manager"
+                    },
+                ]
             },
             {
                 name: "OVERWATCH",
@@ -126,7 +234,25 @@ export default {
                         link: "https://discord.gg/U6P3Dtp"
                     },
                 ],
-                logo: "/Pictures/Logos/OverwatchWhite.png"
+                logo: "/Pictures/Logos/OverwatchWhite.png",
+                people: [
+                    {
+                        name: "Victor Okoye",
+                        role: "President"
+                    },
+                    {
+                        name: "Jeff Zhang",
+                        role: "Vice President"
+                    },
+                    {
+                        name: "Alexander Li",
+                        role: "Treasurer"
+                    },
+                    {
+                        name: "Kevin Su",
+                        role: "Competitive Manager"
+                    },
+                ]
             },
             {
                 name: "POKEMON",
@@ -145,7 +271,25 @@ export default {
                         link: "https://discord.gg/WCgKXts"
                     },
                 ],
-                logo: "/Pictures/Logos/Pokeball2.png"
+                logo: "/Pictures/Logos/Pokeball2.png",
+                people: [
+                    {
+                        name: "Victor Okoye",
+                        role: "President"
+                    },
+                    {
+                        name: "Jeff Zhang",
+                        role: "Vice President"
+                    },
+                    {
+                        name: "Alexander Li",
+                        role: "Treasurer"
+                    },
+                    {
+                        name: "Kevin Su",
+                        role: "Competitive Manager"
+                    },
+                ]
             },
             {
                 name: "RAINBOW SIX SIEGE",
@@ -164,7 +308,25 @@ export default {
                         link: " https://discord.gg/3KuRSFH"
                     },
                 ],
-                logo: "/Pictures/Logos/rainbow6.png"
+                logo: "/Pictures/Logos/rainbow6.png",
+                people: [
+                    {
+                        name: "Victor Okoye",
+                        role: "President"
+                    },
+                    {
+                        name: "Jeff Zhang",
+                        role: "Vice President"
+                    },
+                    {
+                        name: "Alexander Li",
+                        role: "Treasurer"
+                    },
+                    {
+                        name: "Kevin Su",
+                        role: "Competitive Manager"
+                    },
+                ]
             },
         
 
@@ -186,7 +348,25 @@ export default {
                         link: "https://discord.gg/azP28Hd"
                     },
                 ],
-                logo: "/Pictures/Logos/RGCLOGO2.png"
+                logo: "/Pictures/Logos/RGCLOGO2.png",
+                people: [
+                    {
+                        name: "Victor Okoye",
+                        role: "President"
+                    },
+                    {
+                        name: "Jeff Zhang",
+                        role: "Vice President"
+                    },
+                    {
+                        name: "Alexander Li",
+                        role: "Treasurer"
+                    },
+                    {
+                        name: "Kevin Su",
+                        role: "Competitive Manager"
+                    },
+                ]
             },
             {
                 name: "ROCKET LEAGUE",
@@ -205,7 +385,25 @@ export default {
                         link: "https://discord.gg/nuSzTWw"
                     },
                 ],
-                logo: "/Pictures/Logos/RocketLeague.png"
+                logo: "/Pictures/Logos/RocketLeague.png",
+                people: [
+                    {
+                        name: "Victor Okoye",
+                        role: "President"
+                    },
+                    {
+                        name: "Jeff Zhang",
+                        role: "Vice President"
+                    },
+                    {
+                        name: "Alexander Li",
+                        role: "Treasurer"
+                    },
+                    {
+                        name: "Kevin Su",
+                        role: "Competitive Manager"
+                    },
+                ]
             },
             {
                 name: "SMASH MELEE",
@@ -224,7 +422,25 @@ export default {
                         link: "https://discord.gg/SEDm5MM"
                     },
                 ],
-                logo: "/Pictures/Logos/smashMelee.png"
+                logo: "/Pictures/Logos/smashMelee.png",
+                people: [
+                    {
+                        name: "Victor Okoye",
+                        role: "President"
+                    },
+                    {
+                        name: "Jeff Zhang",
+                        role: "Vice President"
+                    },
+                    {
+                        name: "Alexander Li",
+                        role: "Treasurer"
+                    },
+                    {
+                        name: "Kevin Su",
+                        role: "Competitive Manager"
+                    },
+                ]
             },
             {
                 name: "SMASH ULTIMATE",
@@ -245,17 +461,28 @@ export default {
                         type: "discord",
                         link: "https://discord.gg/8BcAwgk"
                     },
-                    {
-                        type: "linkedin",
-                        link: "https://discord.gg/8BcAwgk"
-                    },
-                    {
-                        type: "youtube",
-                        link: "https://discord.gg/8BcAwgk"
-                    },
+                    
                     
                 ],
-                logo: "/Pictures/Logos/SmashUltimateWhite.png"
+                logo: "/Pictures/Logos/SmashUltimateWhite.png",
+                people: [
+                    {
+                        name: "Victor Okoye",
+                        role: "President"
+                    },
+                    {
+                        name: "Jeff Zhang",
+                        role: "Vice President"
+                    },
+                    {
+                        name: "Alexander Li",
+                        role: "Treasurer"
+                    },
+                    {
+                        name: "Kevin Su",
+                        role: "Competitive Manager"
+                    },
+                ]
             }
         
         

@@ -47,7 +47,6 @@ body {
   background-color: #1d1d1d;
   justify-content: center;
   color: rgb(0, 0, 0, 0);
-  width: 100%;
   height: 10vw;
   transition: 0.5s;
   display: flex;
@@ -153,11 +152,52 @@ body {
   font-size: large;
   text-align: center;
   color: white;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .socialsBar {
   float: right;
   width: 100%;
+}
+
+.peopleContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #1d1d1d;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personTab {
+  position: relative;
+  background-color: #c94949;
+  background-image: url("/Pictures/Clubs/People/noPic.png");
+  background-size: 75%, 100%;
+  background-repeat: no-repeat;
+  background-position: center, center;
+  justify-content: center;
+  color: rgb(0, 0, 0, 0);
+  width: 100%;
+  height: 15vw;
+  resize: vertical;
+}
+
+.personName {
+  position: absolute;
+  text-align: left;
+  color: white;
+  top: 65%;
+  left: 5%;
+}
+
+.personRole {
+  position: absolute;
+  text-align: left;
+  color: rgb(206, 206, 206);
+  top: 80%;
+  left: 5%;
 }
 
 @media screen and (max-width: 580px) {
@@ -177,5 +217,9 @@ body {
 
   .popUpContainer {
     width: 70vw;
+  }
+
+  .personTab {
+    height: 30vw;
   }
 }

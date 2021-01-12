@@ -1,5 +1,6 @@
 import React, {Component, useState} from "react";
 import SocialsBar from './SocialsBar.js';
+import PersonGrid from './PersonGrid.js';
 import './Grid.css';
 import './Socials.css';
 import Grid from '@material-ui/core/Grid';
@@ -60,6 +61,8 @@ function ClubsGrid(props){
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget dolor auctor, pellentesque neque eget, dictum enim. Morbi bibendum eget nibh ac vulputate. Nunc euismod quis urna vitae luctus. Pellentesque pretium efficitur consectetur. Vestibulum iaculis urna ultricies ligula tincidunt, tristique fermentum nisl efficitur. Integer tincidunt nibh leo, sed suscipit velit volutpat commodo. Quisque imperdiet diam ac maximus finibus. Suspendisse aliquet viverra orci eu ultricies.</p>
 <p>Pellentesque ac augue quam. Praesent mauris ipsum, eleifend at congue eget, ultricies vel quam. Sed sollicitudin augue a ante rutrum venenatis. Aenean pulvinar tempor pretium. Praesent pharetra cursus mauris, nec scelerisque purus volutpat ac. Vestibulum ultrices, ante quis gravida hendrerit, quam neque fermentum ex, sit amet vulputate sem elit in mi. Pellentesque vitae gravida felis, sed venenatis diam. Duis velit risus, rutrum volutpat magna et, rhoncus consequat justo. Praesent leo odio, fermentum at pretium nec, elementum eget est.</p>    
+                                <h1 className="title"> E-Board </h1>
+                                <PersonGrid people={clubPop.people}></PersonGrid>
                             </div>
 
                         </div>
