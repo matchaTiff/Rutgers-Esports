@@ -1,4 +1,4 @@
-import React, {Component, useState} from "react";
+import React, {useState} from "react";
 import SocialsBar from './SocialsBar.js';
 import './Grid.css';
 import './Socials.css';
@@ -49,7 +49,7 @@ function TeamsGrid(props){
                                 <Carousel plugins={['infinite',{ resolve: autoplayPlugin,options: {interval: 4000,}},]} animationSpeed={1000}>
                                     {teamPop.pictures.map((pic) =>(
 
-                                    <img className="orgPicture" src={pic}/>
+                                    <img className="orgPicture" src={pic} alt={teamPop.name}/>
                                     ))}
                                 </Carousel>
                             </div>

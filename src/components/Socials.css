@@ -10,7 +10,6 @@
   height: 3rem;
   border-radius: 10%;
   background-color: white;
-
   border-width: 3px;
   border-style: solid;
   transition: 1s;
@@ -71,4 +70,38 @@
 
 .youtubeContainer:hover {
   background-color: rgb(254, 0, 0);
+}
+
+.mailchimpContainer {
+  color: rgb(255, 224, 27);
+  border-color: rgb(255, 224, 27);
+}
+
+.mailchimpContainer:hover {
+  background-color: rgb(255, 224, 27);
+}
+
+.instagramContainer {
+  color: #d6249f;
+  border-color: #d6249f;
+}
+
+.instagramContainer:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+@media screen and (max-width: 580px) {
+  .socContainer {
+    width: 2rem;
+    height: 2rem;
+    padding-top: 0.1rem;
+    font-size: 1rem;
+  }
 }

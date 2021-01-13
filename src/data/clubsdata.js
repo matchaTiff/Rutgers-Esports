@@ -31,14 +31,18 @@ export default {
                         name: "Kevin Su",
                         role: "Competitive Manager"
                     },
-                ]
+                ],
+                meeting: "Every other Friday 7:30 PM - 8:30 PM",
+                location: "On our Discord!",
+                about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
+ 
             },
             {
                 name: "CS:GO",
                 picture: "/Pictures/Clubs/csgo.png",
                 pictures: [
                     "/Pictures/Clubs/csgo.png",
-                    "/Pictures/Clubs/overwatch.jpg"
+                    "/Pictures/Clubs/lol.png"
                 ],
                 socials: [
                     {
@@ -68,14 +72,18 @@ export default {
                         name: "Kevin Su",
                         role: "Competitive Manager"
                     },
-                ]
+                ],
+                meeting: "Every other Friday 7:30 PM - 8:30 PM",
+                location: "On our Discord!",
+                about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
+ 
             },
             {
                 name: "DOTA",
                 picture: "/Pictures/Clubs/dota.png",
                 pictures: [
                     "/Pictures/Clubs/dota.png",
-                    "/Pictures/Clubs/overwatch.jpg"
+                    "/Pictures/Clubs/lol.png"
                 ],
                 socials:[
                     {
@@ -105,14 +113,18 @@ export default {
                         name: "Kevin Su",
                         role: "Competitive Manager"
                     },
-                ]
+                ],
+                meeting: "Every other Friday 7:30 PM - 8:30 PM",
+                location: "On our Discord!",
+                about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
+ 
             },
             {
                 name: "FIGHTING GAMES",
                 picture: "/Pictures/Clubs/fgc.png",
                 pictures: [
                     "/Pictures/Clubs/fgc.png",
-                    "/Pictures/Clubs/overwatch.jpg"
+                    "/Pictures/Clubs/lol.png"
                 ],
                 socials:[
                     {
@@ -142,17 +154,27 @@ export default {
                         name: "Kevin Su",
                         role: "Competitive Manager"
                     },
-                ]
+                ],
+                meeting: "Every other Friday 7:30 PM - 8:30 PM",
+                location: "On our Discord!",
+                about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
+ 
             },
             {
                 name: "HEARTHSTONE",
                 picture: "/Pictures/Clubs/hs.png",
                 pictures: [
                     "/Pictures/Clubs/hs.png",
-                    "/Pictures/Clubs/overwatch.jpg"
+                    "/Pictures/Clubs/lol.png"
                 ],
                 socials:[
                     {
+                        
+                        type: "facebook",
+                        link: "https://www.facebook.com/groups/RUHearthstone"
+                    },
+                    {
+                        
                         type: "discord",
                         link: "https://discord.gg/b7aeQhu"
                     },
@@ -175,7 +197,11 @@ export default {
                         name: "Kevin Su",
                         role: "Competitive Manager"
                     },
-                ]
+                ],
+                meeting: "Every other Friday 7:30 PM - 8:30 PM",
+                location: "On our Discord!",
+                about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
+ 
             },
         
 
@@ -185,7 +211,7 @@ export default {
                 picture: "/Pictures/Clubs/lol.png",
                 pictures: [
                     "/Pictures/Clubs/lol.png",
-                    "/Pictures/Clubs/overwatch.jpg"
+                    "/Pictures/Clubs/lol.png"
                 ],
                 socials:[
                     {
@@ -215,7 +241,11 @@ export default {
                         name: "Kevin Su",
                         role: "Competitive Manager"
                     },
-                ]
+                ],
+                meeting: "Every other Friday 7:30 PM - 8:30 PM",
+                location: "On our Discord!",
+                about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
+ 
             },
             {
                 name: "OVERWATCH",
@@ -252,14 +282,18 @@ export default {
                         name: "Kevin Su",
                         role: "Competitive Manager"
                     },
-                ]
+                ],
+                meeting: "Every other Friday 7:30 PM - 8:30 PM",
+                location: "On our Discord!",
+                about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
+ 
             },
             {
                 name: "POKEMON",
                 picture: "/Pictures/Clubs/pkmn.png",
                 pictures: [
                     "/Pictures/Clubs/pkmn.png",
-                    "/Pictures/Clubs/overwatch.jpg"
+                    "/Pictures/Clubs/lol.png"
                 ],
                 socials:[
                     {
@@ -269,6 +303,10 @@ export default {
                     {
                         type: "discord",
                         link: "https://discord.gg/WCgKXts"
+                    },
+                    {
+                        type: "twitch",
+                        link: "https://www.twitch.tv/rutgerspokemon"
                     },
                 ],
                 logo: "/Pictures/Logos/Pokeball2.png",
@@ -289,14 +327,18 @@ export default {
                         name: "Kevin Su",
                         role: "Competitive Manager"
                     },
-                ]
+                ],
+                meeting: "Every other Friday 7:30 PM - 8:30 PM",
+                location: "On our Discord!",
+                about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
+ 
             },
             {
                 name: "RAINBOW SIX SIEGE",
                 picture: "/Pictures/Clubs/r6.png",
                 pictures: [
                     "/Pictures/Clubs/r6.png",
-                    "/Pictures/Clubs/overwatch.jpg"
+                    "/Pictures/Clubs/lol.png"
                 ],
                 socials:[
                     {
@@ -326,7 +368,11 @@ export default {
                         name: "Kevin Su",
                         role: "Competitive Manager"
                     },
-                ]
+                ],
+                meeting: "Every other Friday 7:30 PM - 8:30 PM",
+                location: "On our Discord!",
+                about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
+ 
             },
         
 
@@ -336,7 +382,7 @@ export default {
                 picture: "/Pictures/Clubs/rgc.png",
                 pictures: [
                     "/Pictures/Clubs/rgc.png",
-                    "/Pictures/Clubs/overwatch.jpg"
+                    "/Pictures/Clubs/lol.png"
                 ],
                 socials:[
                     {
@@ -366,14 +412,18 @@ export default {
                         name: "Kevin Su",
                         role: "Competitive Manager"
                     },
-                ]
+                ],
+                meeting: "Every other Friday 7:30 PM - 8:30 PM",
+                location: "On our Discord!",
+                about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
+ 
             },
             {
                 name: "ROCKET LEAGUE",
                 picture: "/Pictures/Clubs/rl.png",
                 pictures: [
                     "/Pictures/Clubs/rl.png",
-                    "/Pictures/Clubs/overwatch.jpg"
+                    "/Pictures/Clubs/lol.png"
                 ],
                 socials:[
                     {
@@ -403,14 +453,18 @@ export default {
                         name: "Kevin Su",
                         role: "Competitive Manager"
                     },
-                ]
+                ],
+                meeting: "Every other Friday 7:30 PM - 8:30 PM",
+                location: "On our Discord!",
+                about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
+ 
             },
             {
                 name: "SMASH MELEE",
                 picture: "/Pictures/Clubs/melee.png",
                 pictures: [
                     "/Pictures/Clubs/melee.png",
-                    "/Pictures/Clubs/overwatch.jpg"
+                    "/Pictures/Clubs/lol.png"
                 ],
                 socials:[
                     {
@@ -440,13 +494,17 @@ export default {
                         name: "Kevin Su",
                         role: "Competitive Manager"
                     },
-                ]
+                ],
+                meeting: "Every other Friday 7:30 PM - 8:30 PM",
+                location: "On our Discord!",
+                about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
+ 
             },
             {
                 name: "SMASH ULTIMATE",
                 pictures: [
                     "/Pictures/Clubs/ultimate.png",
-                    "/Pictures/Clubs/overwatch.jpg"
+                    "/Pictures/Clubs/lol.png"
                 ],
                 socials:[
                     {
@@ -482,7 +540,67 @@ export default {
                         name: "Kevin Su",
                         role: "Competitive Manager"
                     },
-                ]
+                ],
+                meeting: "Every other Friday 7:30 PM - 8:30 PM",
+                location: "On our Discord!",
+                about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
+ 
+            },
+            {
+                name: "WOMEN'S GAMING LEAGUE",
+                pictures: [
+                    "/Pictures/Clubs/ultimate.png",
+                    "/Pictures/Clubs/lol.png"
+                ],
+                socials:[
+                    {
+                        type: "twitter",
+                        link: "https://twitter.com/RutgersWGL"
+                    }, 
+                    {
+                        type: "twitch",
+                        link: "https://www.twitch.tv/rutgerswgl"
+                    }, 
+                    {
+                        type: "instagram",
+                        link: "https://www.instagram.com/rutgerswgl/"
+                    }, 
+                    {
+                        type: "mailchimp",
+                        link: "https://mailchi.mp/4a7e164ed9b8/subscribe-to-the-rwgl-newsletter"
+                    }, 
+                    {
+                        type: "discord",
+                        link: "https://discord.com/invite/GgHVaYt"
+                    }, 
+                    
+                ],
+                logo: "/Pictures/Logos/WomenGamingLeague.png",
+                people: [
+                    {
+                        name: "Ashley Stankovits",
+                        role: "President"
+                    },
+                    {
+                        name: "Cara Escalona",
+                        role: "President"
+                    },
+                    {
+                        name: "Kristen Marcinek",
+                        role: "Vice President"
+                    },
+                    {
+                        name: "Rae Hochwald",
+                        role: "Treasurer"
+                    },
+                    {
+                        name: "Autumn Rauscher",
+                        role: "Secretary"
+                    },
+                ],
+                meeting: "Every other Friday 7:30 PM - 8:30 PM",
+                location: "On our Discord!",
+                about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
             }
         
         

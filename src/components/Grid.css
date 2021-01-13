@@ -146,14 +146,13 @@ body {
 }
 
 .popUpBody {
-  padding: 20px;
   background-color: #1d1d1d;
   width: 100%;
   font-size: large;
   text-align: center;
   color: white;
-  padding-left: 10%;
-  padding-right: 10%;
+
+  padding: 3rem 10% 5rem;
 }
 
 .socialsBar {
@@ -170,11 +169,17 @@ body {
   margin-right: auto;
 }
 
+.peopleTitle {
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .personTab {
   position: relative;
   background-color: #c94949;
   background-image: url("/Pictures/Clubs/People/noPic.png");
-  background-size: 75%, 100%;
+  background-size: 130%, 100%;
   background-repeat: no-repeat;
   background-position: center, center;
   justify-content: center;
@@ -200,6 +205,31 @@ body {
   left: 5%;
 }
 
+.info {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.about {
+  text-align: left;
+}
+.about p {
+  font-size: 0.8rem;
+}
+
+.meetings {
+  text-align: left;
+}
+.meetings p {
+  font-size: 0.8rem;
+}
+.meetings h6 {
+  color: rgb(151, 151, 151);
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 580px) {
   .grid-container {
     width: 90vw;
@@ -221,5 +251,38 @@ body {
 
   .personTab {
     height: 30vw;
+  }
+
+  .personName {
+    font-size: 2.5vw !important;
+  }
+
+  .personRole {
+    font-size: 2vw !important;
+  }
+
+  .peopleTitle {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .about {
+    text-align: center;
+  }
+  .about p {
+    font-size: 0.6rem;
+  }
+
+  .meetings {
+    text-align: center;
+  }
+
+  .exitPop {
+    font-size: 0.75rem;
+  }
+
+  .orgTitle {
+    font-size: 1.5rem;
+    padding-top: 2rem;
   }
 }

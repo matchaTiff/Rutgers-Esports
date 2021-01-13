@@ -1,4 +1,4 @@
-import React, {Component, useState} from "react";
+import React from "react";
 import './Grid.css';
 import Grid from '@material-ui/core/Grid';
 
@@ -7,7 +7,8 @@ function PersonGrid(props){
     return(
         
                 
-
+                <div>
+                    <h4 className="peopleTitle"> {props.title}</h4>
                     <Grid container spacing={3}>
                         {props.people.map((person) => (
 
@@ -28,6 +29,8 @@ function PersonGrid(props){
                                 
                             ))}
                     </Grid>
+                </div>
+                    
                     
                     
                
