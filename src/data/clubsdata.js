@@ -98,25 +98,25 @@ export default {
                 logo: "/Pictures/Logos/dota2.png",
                 people: [
                     {
-                        name: "Victor Okoye",
+                        name: "Raj Limbasia",
                         role: "President"
                     },
                     {
-                        name: "Jeff Zhang",
+                        name: "Eitan Ostrovsky",
                         role: "Vice President"
                     },
                     {
-                        name: "Alexander Li",
+                        name: "Tyler Wang",
                         role: "Treasurer"
                     },
-                    {
+                    /*{
                         name: "Kevin Su",
                         role: "Competitive Manager"
-                    },
+                    },*/
                 ],
-                meeting: "Every other Friday 7:30 PM - 8:30 PM",
-                location: "On our Discord!",
-                about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
+                meeting: "Friday 8PM-12AM",
+                location: "Science and Engineering Resource Center-Room 206",
+                about: "Welcome to the Dota 2 community page! Whether you’re a casual or competitive player, everyone is welcome at our DotA club! Meetings consist of inhouses (standard 5v5 matches in various modes) to relax and have fun, and we occasionally hold educational days where the more experienced members of the community show tips and tricks to our newer players. Our community is also heavily involved online, whether it be ranked queues on weekday nights or our official inhouse tournament games. If you’re more of the competitive type, we host multiple teams in the Collegiate Star League (CSL). Our club members are always seeking to learn and improve their game and have a great time while doing so."
  
             },
             {
@@ -267,25 +267,25 @@ export default {
                 logo: "/Pictures/Logos/OverwatchWhite.png",
                 people: [
                     {
-                        name: "Victor Okoye",
+                        name: "Noe Duran",
                         role: "President"
                     },
                     {
-                        name: "Jeff Zhang",
+                        name: "David",
                         role: "Vice President"
                     },
                     {
-                        name: "Alexander Li",
+                        name: "Krishna",
                         role: "Treasurer"
                     },
-                    {
+                    /*{
                         name: "Kevin Su",
                         role: "Competitive Manager"
-                    },
+                    },*/
                 ],
-                meeting: "Every other Friday 7:30 PM - 8:30 PM",
-                location: "On our Discord!",
-                about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
+                meeting: "Friday 8PM – 12AM",
+                location: "Science and Engineering Resource Center – Room 211",
+                about: "Welcome to Rutgers Overwatch! Here we discuss, share, and collect all things Overwatch. Interested in finding some friends to play with? Want to learn how to aim like a pro? Rutgers Overwatch provides a whole community of players with varying knowledge and skills, giving one of the most unique gaming experiences on campus. Every week we meet and host matches, tournaments, and all-around fun times in SERC 211 on Busch Campus. Come check us out and be apart of an incredible community! We have our own national collegiate team. So, if you think you’ve got the skill to represent the Scarlet Knights against other colleges, come to our meetings and talk to one of our Team Captains!"
  
             },
             {
@@ -397,25 +397,25 @@ export default {
                 logo: "/Pictures/Logos/RGCLOGO2.png",
                 people: [
                     {
-                        name: "Victor Okoye",
+                        name: "Chris Martinez",
                         role: "President"
                     },
                     {
-                        name: "Jeff Zhang",
+                        name: "Julian Quinonez",
                         role: "Vice President"
                     },
                     {
-                        name: "Alexander Li",
+                        name: "Kevin Yang",
                         role: "Treasurer"
                     },
-                    {
+                  /*  {
                         name: "Kevin Su",
                         role: "Competitive Manager"
-                    },
+                    },*/
                 ],
-                meeting: "Every other Friday 7:30 PM - 8:30 PM",
-                location: "On our Discord!",
-                about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
+                meeting: "Friday 8PM – 12AM",
+                location: "Science and Engineering Resource Center – Room 218",
+                about: "The Rutgers Rhythm Game Community is a group of people that love all sorts of music games wanting to feel the rhythm. We have players for osu!, Stepmania, DDR/ITG, GH/RB, Bemani titles, and more. Whether you are a pro or someone starting out, everyone is welcome."
  
             },
             {
@@ -454,8 +454,8 @@ export default {
                         role: "Competitive Manager"
                     },
                 ],
-                meeting: "Every other Friday 7:30 PM - 8:30 PM",
-                location: "On our Discord!",
+                meeting: "Friday 8PM – 12AM",
+                location: "Science and Engineering Resource Center – Room 212",
                 about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
  
             },
@@ -525,25 +525,25 @@ export default {
                 logo: "/Pictures/Logos/SmashUltimateWhite.png",
                 people: [
                     {
-                        name: "Victor Okoye",
+                        name: "Alex Wu",
                         role: "President"
                     },
                     {
-                        name: "Jeff Zhang",
+                        name: "Ryan Carey",
                         role: "Vice President"
                     },
                     {
-                        name: "Alexander Li",
+                        name: "Matthew Henry",
                         role: "Treasurer"
                     },
-                    {
+                    /*{
                         name: "Kevin Su",
                         role: "Competitive Manager"
-                    },
+                    },*/
                 ],
-                meeting: "Every other Friday 7:30 PM - 8:30 PM",
-                location: "On our Discord!",
-                about: "Hello there! We’re Rutgers Women’s Gaming League. We’re here to promote equality in gaming and provide a safe and quality environment for gamers of all kinds while uplifting women. We hope to provide the women of Rutgers a comfortable place to express their passion for gaming who are seeking a community where they feel they belong. We value creating a club where everyone feels like they have a space and have people to share their hobbies with, and support all genders in participating in competitive and non competitive gaming. If you’re looking for like-minded friends or just a place to hang out, come check us out! We also hold events and tournaments throughout the semester, be on the lookout for those!"
+                meeting: "Friday 8PM - 12AM",
+                location: "Science and Engineering Resource Center - Room 203",
+                about: "This part of Scarlet Smash is for Smash Ultimate enthusiasts of all skill levels to socialize, play friendlies, or test their skill in our free biweekly tournaments. We meet every Friday from 8-12 pm at SERC with a bracket every other week, and fun casual events on other weeks!"
  
             },
             {
