@@ -19,8 +19,11 @@ function PersonGrid(props){
                                     <div  className="personTab">
                                         
                                         {/*The following changes size based on amount of characters and viewport width*/}
-                                        <p className="personName" style={{fontSize: (33-person.name.length)*0.055+"vw"}}> {person.name}</p>
-                                        <p className="personRole" style={{fontSize: (33-person.role.length)*0.045+"vw"}}> {person.role}</p>    
+                                          
+                                    </div>
+                                    <div style={{marginTop: "1.5rem"}}>
+                                        <p className="personName"> {person.name}</p>
+                                        <p className="personRole"> {person.role}</p> 
                                     </div>
                                     
                                 </div>

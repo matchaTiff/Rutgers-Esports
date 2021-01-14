@@ -179,30 +179,28 @@ body {
   position: relative;
   background-color: #c94949;
   background-image: url("/Pictures/Clubs/People/noPic.png");
-  background-size: 130%, 100%;
+  background-size: 100%, 100%;
   background-repeat: no-repeat;
   background-position: center, center;
   justify-content: center;
   color: rgb(0, 0, 0, 0);
   width: 100%;
-  height: 15vw;
+  height: 12vw;
   resize: vertical;
 }
 
 .personName {
-  position: absolute;
-  text-align: left;
+  text-align: center;
   color: white;
-  top: 65%;
-  left: 5%;
+  margin: 0;
+  font-size: 1.25vw;
 }
 
 .personRole {
-  position: absolute;
-  text-align: left;
-  color: rgb(206, 206, 206);
-  top: 80%;
-  left: 5%;
+  text-align: center;
+  color: rgb(145, 145, 145);
+  overflow-wrap: normal;
+  font-size: 1vw;
 }
 
 .info {
@@ -250,15 +248,15 @@ body {
   }
 
   .personTab {
-    height: 30vw;
+    height: 26vw;
   }
 
   .personName {
-    font-size: 2.5vw !important;
+    font-size: 2.5vw;
   }
 
   .personRole {
-    font-size: 2vw !important;
+    font-size: 2vw;
   }
 
   .peopleTitle {

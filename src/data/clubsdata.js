@@ -17,19 +17,19 @@ export default {
                 people: [
                     {
                         name: "Victor Okoye",
-                        role: "President"
+                        role: "PRESIDENT"
                     },
                     {
                         name: "Jeff Zhang",
-                        role: "Vice President"
+                        role: "VICE PRESIDENT"
                     },
                     {
                         name: "Alexander Li",
-                        role: "Treasurer"
+                        role: "TREASURER"
                     },
                     {
                         name: "Kevin Su",
-                        role: "Competitive Manager"
+                        role: "COMPETITIVE MANAGER"
                     },
                 ],
                 meeting: "Every other Friday 7:30 PM - 8:30 PM",
@@ -58,19 +58,19 @@ export default {
                 people: [
                     {
                         name: "Victor Okoye",
-                        role: "President"
+                        role: "PRESIDENT"
                     },
                     {
                         name: "Jeff Zhang",
-                        role: "Vice President"
+                        role: "VICE PRESIDENT"
                     },
                     {
                         name: "Alexander Li",
-                        role: "Treasurer"
+                        role: "TREASURER"
                     },
                     {
                         name: "Kevin Su",
-                        role: "Competitive Manager"
+                        role: "COMPETITIVE MANAGER"
                     },
                 ],
                 meeting: "Every other Friday 7:30 PM - 8:30 PM",
@@ -99,15 +99,15 @@ export default {
                 people: [
                     {
                         name: "Raj Limbasia",
-                        role: "President"
+                        role: "PRESIDENT"
                     },
                     {
                         name: "Eitan Ostrovsky",
-                        role: "Vice President"
+                        role: "VICE PRESIDENT"
                     },
                     {
                         name: "Tyler Wang",
-                        role: "Treasurer"
+                        role: "TREASURER"
                     },
                     /*{
                         name: "Kevin Su",
@@ -140,19 +140,19 @@ export default {
                 people: [
                     {
                         name: "Victor Okoye",
-                        role: "President"
+                        role: "PRESIDENT"
                     },
                     {
                         name: "Jeff Zhang",
-                        role: "Vice President"
+                        role: "VICE PRESIDENT"
                     },
                     {
                         name: "Alexander Li",
-                        role: "Treasurer"
+                        role: "TREASURER"
                     },
                     {
                         name: "Kevin Su",
-                        role: "Competitive Manager"
+                        role: "COMPETITIVE MANAGER"
                     },
                 ],
                 meeting: "Every other Friday 7:30 PM - 8:30 PM",
@@ -183,19 +183,19 @@ export default {
                 people: [
                     {
                         name: "Victor Okoye",
-                        role: "President"
+                        role: "PRESIDENT"
                     },
                     {
                         name: "Jeff Zhang",
-                        role: "Vice President"
+                        role: "VICE PRESIDENT"
                     },
                     {
                         name: "Alexander Li",
-                        role: "Treasurer"
+                        role: "TREASURER"
                     },
                     {
                         name: "Kevin Su",
-                        role: "Competitive Manager"
+                        role: "COMPETITIVE MANAGER"
                     },
                 ],
                 meeting: "Every other Friday 7:30 PM - 8:30 PM",
@@ -227,19 +227,19 @@ export default {
                 people: [
                     {
                         name: "Victor Okoye",
-                        role: "President"
+                        role: "PRESIDENT"
                     },
                     {
                         name: "Jeff Zhang",
-                        role: "Vice President"
+                        role: "VICE PRESIDENT"
                     },
                     {
                         name: "Alexander Li",
-                        role: "Treasurer"
+                        role: "TREASURER"
                     },
                     {
                         name: "Kevin Su",
-                        role: "Competitive Manager"
+                        role: "COMPETITIVE MANAGER"
                     },
                 ],
                 meeting: "Every other Friday 7:30 PM - 8:30 PM",
@@ -268,15 +268,15 @@ export default {
                 people: [
                     {
                         name: "Noe Duran",
-                        role: "President"
+                        role: "PRESIDENT"
                     },
                     {
                         name: "David",
-                        role: "Vice President"
+                        role: "VICE PRESIDENT"
                     },
                     {
                         name: "Krishna",
-                        role: "Treasurer"
+                        role: "TREASURER"
                     },
                     /*{
                         name: "Kevin Su",
@@ -313,19 +313,19 @@ export default {
                 people: [
                     {
                         name: "Victor Okoye",
-                        role: "President"
+                        role: "PRESIDENT"
                     },
                     {
                         name: "Jeff Zhang",
-                        role: "Vice President"
+                        role: "VICE PRESIDENT"
                     },
                     {
                         name: "Alexander Li",
-                        role: "Treasurer"
+                        role: "TREASURER"
                     },
                     {
                         name: "Kevin Su",
-                        role: "Competitive Manager"
+                        role: "COMPETITIVE MANAGER"
                     },
                 ],
                 meeting: "Every other Friday 7:30 PM - 8:30 PM",
@@ -354,19 +354,19 @@ export default {
                 people: [
                     {
                         name: "Victor Okoye",
-                        role: "President"
+                        role: "PRESIDENT"
                     },
                     {
                         name: "Jeff Zhang",
-                        role: "Vice President"
+                        role: "VICE PRESIDENT"
                     },
                     {
                         name: "Alexander Li",
-                        role: "Treasurer"
+                        role: "TREASURER"
                     },
                     {
                         name: "Kevin Su",
-                        role: "Competitive Manager"
+                        role: "COMPETITIVE MANAGER"
                     },
                 ],
                 meeting: "Every other Friday 7:30 PM - 8:30 PM",
@@ -397,16 +397,20 @@ export default {
                 logo: "/Pictures/Logos/RGCLOGO2.png",
                 people: [
                     {
-                        name: "Chris Martinez",
-                        role: "President"
+                        name: "Victor Okoye",
+                        role: "PRESIDENT"
                     },
                     {
-                        name: "Julian Quinonez",
-                        role: "Vice President"
+                        name: "Jeff Zhang",
+                        role: "VICE PRESIDENT"
                     },
                     {
-                        name: "Kevin Yang",
-                        role: "Treasurer"
+                        name: "Alexander Li",
+                        role: "TREASURER"
+                    },
+                    {
+                        name: "Kevin Su",
+                        role: "COMPETITIVE MANAGER"
                     },
                   /*  {
                         name: "Kevin Su",
@@ -439,19 +443,19 @@ export default {
                 people: [
                     {
                         name: "Victor Okoye",
-                        role: "President"
+                        role: "PRESIDENT"
                     },
                     {
                         name: "Jeff Zhang",
-                        role: "Vice President"
+                        role: "VICE PRESIDENT"
                     },
                     {
                         name: "Alexander Li",
-                        role: "Treasurer"
+                        role: "TREASURER"
                     },
                     {
                         name: "Kevin Su",
-                        role: "Competitive Manager"
+                        role: "COMPETITIVE MANAGER"
                     },
                 ],
                 meeting: "Friday 8PM – 12AM",
@@ -480,19 +484,19 @@ export default {
                 people: [
                     {
                         name: "Victor Okoye",
-                        role: "President"
+                        role: "PRESIDENT"
                     },
                     {
                         name: "Jeff Zhang",
-                        role: "Vice President"
+                        role: "VICE PRESIDENT"
                     },
                     {
                         name: "Alexander Li",
-                        role: "Treasurer"
+                        role: "TREASURER"
                     },
                     {
                         name: "Kevin Su",
-                        role: "Competitive Manager"
+                        role: "COMPETITIVE MANAGER"
                     },
                 ],
                 meeting: "Every other Friday 7:30 PM - 8:30 PM",
@@ -526,20 +530,17 @@ export default {
                 people: [
                     {
                         name: "Alex Wu",
-                        role: "President"
+                        role: "PRESIDENT"
                     },
                     {
                         name: "Ryan Carey",
-                        role: "Vice President"
+                        role: "VICE PRESIDENT"
                     },
                     {
                         name: "Matthew Henry",
-                        role: "Treasurer"
+                        role: "TREASURE"
                     },
-                    /*{
-                        name: "Kevin Su",
-                        role: "Competitive Manager"
-                    },*/
+                    
                 ],
                 meeting: "Friday 8PM - 12AM",
                 location: "Science and Engineering Resource Center - Room 203",
@@ -579,23 +580,23 @@ export default {
                 people: [
                     {
                         name: "Ashley Stankovits",
-                        role: "President"
+                        role: "PRESIDENT"
                     },
                     {
                         name: "Cara Escalona",
-                        role: "President"
+                        role: "PRESIDENT"
                     },
                     {
                         name: "Kristen Marcinek",
-                        role: "Vice President"
+                        role: "VICE PRESIDENT"
                     },
                     {
                         name: "Rae Hochwald",
-                        role: "Treasurer"
+                        role: "TREASURER"
                     },
                     {
                         name: "Autumn Rauscher",
-                        role: "Secretary"
+                        role: "SECRETARY"
                     },
                 ],
                 meeting: "Every other Friday 7:30 PM - 8:30 PM",
