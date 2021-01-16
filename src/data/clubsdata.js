@@ -226,19 +226,19 @@ export default {
                 logo: "/Pictures/Logos/LoLicon.png",
                 people: [
                     {
-                        name: "Victor Okoye",
+                        name: "Vikram Vijayakumar",
                         role: "PRESIDENT"
                     },
                     {
-                        name: "Jeff Zhang",
+                        name: "Matthew Vandeneede",
                         role: "VICE PRESIDENT"
                     },
                     {
-                        name: "Alexander Li",
+                        name: "Harmandeep Saini",
                         role: "TREASURER"
                     },
                     {
-                        name: "Kevin Su",
+                        name: "David Prado",
                         role: "COMPETITIVE MANAGER"
                     },
                 ],
