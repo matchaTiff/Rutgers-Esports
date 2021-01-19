@@ -548,6 +548,49 @@ export default {
  
             },
             {
+                name: "RU Valowatch",
+                pictures: [
+                    "/Pictures/Clubs/overwatch.jpg",
+                    "/Pictures/Clubs/overwatch.jpg"
+                ],
+                socials:[
+                    {
+                        type: "twitter",
+                        link: "https://twitter.com/Valowatch"
+                    },
+                    {
+                        type: "twitch",
+                        link: "https://www.twitch.tv/ruvalowatch"
+                    },
+                    {
+                        type: "discord",
+                        link: "https://discord.gg/U6P3Dtp"
+                    },
+                    
+                    
+                ],
+                logo: "/Pictures/Logos/ValorantDiscordAlt.png",
+                people: [
+                    {
+                        name: "Noé Duran",
+                        role: "PRESIDENT"
+                    },
+                    {
+                        name: "David Sotimehin",
+                        role: "VICE PRESIDENT"
+                    },
+                    {
+                        name: "Krishna Rayini",
+                        role: "TREASURE"
+                    },
+                    
+                ],
+                meeting: "Friday 6PM - 7PM start time",
+                location: "On our Discord",
+                about: "Rutgers VALORANT and Overwatch club, or RU Valowatch, is a club meant for both casual and competitive players to interact and enjoy playing VALORANT and Overwatch together. Between bi-weekly in-houses for both games, a multitude of events with various prizes for both our best participants and our most enthusiastic, or even just hanging out and getting to learn from our respective competitive teams, Valowatch club has a lot to offer for anyone interested in either VALORANT or Overwatch - and if there happens to be any other games that suit your fancy, there's bound to be a community here for that too."
+ 
+            },
+            {
                 name: "WOMEN'S GAMING LEAGUE",
                 pictures: [
                     "/Pictures/Clubs/ultimate.png",
