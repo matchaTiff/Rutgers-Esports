@@ -1,0 +1,286 @@
+body {
+  box-sizing: border-box;
+}
+.background {
+  position: relative;
+  background-color: #1d1d1d;
+  min-height: 85vh;
+  padding-bottom: 3rem;
+}
+
+.title {
+  position: relative;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  top: 0.5rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  margin: 0 auto 1rem;
+  border-bottom: solid #c94949;
+  width: 4rem;
+}
+
+.grid-container {
+  position: relative;
+  width: 50vw;
+  height: auto;
+  background-color: #1d1d1d;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.orgContainer {
+  min-width: 10vw;
+}
+
+.orgTab {
+  position: relative;
+  border-width: 0.5rem;
+  border-color: rgb(51, 51, 51);
+  border-style: solid;
+  background-color: #1d1d1d;
+  justify-content: center;
+  color: rgb(0, 0, 0, 0);
+  height: 10vw;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  resize: vertical;
+  background-size: 75%, 75%;
+  background-repeat: no-repeat;
+  background-position: center, center;
+}
+
+.orgTab p {
+  margin: 0;
+  text-align: center;
+  font-weight: 800;
+}
+
+.orgTab:hover {
+  border-color: rgb(201, 73, 73);
+  color: rgb(201, 73, 73);
+  background-size: 0%, 0%;
+}
+
+.exitPop {
+  position: absolute;
+  left: 72.5%;
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  color: white;
+  transition: 0.5s;
+}
+
+.exitPop:hover {
+  color: rgb(201, 73, 73);
+  cursor: pointer;
+}
+
+.popUpBackground {
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow-y: auto;
+  scrollbar-width: none;
+  display: flex;
+}
+
+.filler {
+  z-index: 1;
+  width: 23vw;
+  resize: vertical;
+}
+
+.popUpBackground::-webkit-scrollbar {
+  display: none;
+}
+
+.popUpContainer {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.orgTitle {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: #1d1d1d;
+}
+
+.orgTitle p {
+  margin-top: 1rem;
+}
+.orgTitle::after {
+  content: "";
+  display: block;
+  margin: 0 auto 1rem;
+  border-bottom: solid #c94949;
+  width: 4rem;
+}
+
+.orgPicture {
+  position: relative;
+  width: 100%;
+  max-height: 65vh;
+}
+
+.popUpBody {
+  background-color: #1d1d1d;
+  width: 100%;
+  font-size: large;
+  text-align: center;
+  color: white;
+
+  padding: 3rem 10% 5rem;
+}
+
+.socialsBar {
+  float: right;
+  width: 100%;
+}
+
+.peopleContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #1d1d1d;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.peopleTitle {
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.personTab {
+  position: relative;
+  background-color: #c94949;
+  background-image: url("/Pictures/Clubs/People/noPic.png");
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+  background-position: center, center;
+  justify-content: center;
+  color: rgb(0, 0, 0, 0);
+  width: 100%;
+  height: 12vw;
+  resize: vertical;
+}
+
+.personName {
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-size: 1.25vw;
+}
+
+.personRole {
+  text-align: center;
+  color: rgb(145, 145, 145);
+  overflow-wrap: normal;
+  font-size: 1vw;
+}
+
+.info {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.about {
+  text-align: left;
+}
+.about p {
+  font-size: 0.8rem;
+}
+
+.meetings {
+  text-align: left;
+}
+.meetings p {
+  font-size: 0.8rem;
+}
+.meetings h6 {
+  color: rgb(151, 151, 151);
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 580px) {
+  .grid-container {
+    width: 90vw;
+  }
+
+  .orgTab {
+    height: 40vw;
+  }
+  .orgTab p {
+    margin: 0;
+    text-align: center;
+    font-size: 17px !important;
+    font-weight: 800;
+  }
+
+  .popUpContainer {
+    width: 70vw;
+  }
+
+  .personTab {
+    height: 26vw;
+  }
+
+  .personName {
+    font-size: 2.5vw;
+  }
+
+  .personRole {
+    font-size: 2vw;
+  }
+
+  .peopleTitle {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .about {
+    text-align: center;
+  }
+  .about p {
+    font-size: 0.6rem;
+  }
+
+  .meetings {
+    text-align: center;
+  }
+
+  .exitPop {
+    font-size: 0.75rem;
+  }
+
+  .orgTitle {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+  }
+}
