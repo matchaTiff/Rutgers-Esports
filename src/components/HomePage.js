@@ -1,13 +1,13 @@
 import React, { Component } from "react";
+import HeroSection from "./HeroSection";
+import {heroData} from './data/Data.js';
 
-class HomePage extends Component {
-  render() {
-    return (
-        <div className="wrapper">
-            Home Page Content Here
-        </div>
-    );
-  }
+function HomePage() {
+  return (
+    <>
+      <HeroSection {...heroData} />
+    </>
+  )
 }
 
 export default HomePage;

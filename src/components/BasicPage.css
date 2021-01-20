@@ -1,0 +1,10 @@
+body {
+    margin-top: 91px;
+}
+
+.container-fluid {
+    width: auto;
+    padding: 70px 0 70px 0;
+    margin-left: 6em;
+    margin-right: 6em;
+}
