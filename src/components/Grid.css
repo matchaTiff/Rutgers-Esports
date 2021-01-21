@@ -10,25 +10,25 @@ body {
 
 .title {
   position: relative;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
   text-align: center;
-  top: 0.5rem;
-  margin-bottom: 3rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   font-weight: 600;
 }
 
 .title::after {
   content: "";
   display: block;
-  margin: 0 auto 1rem;
+  margin: 0 auto 0;
   border-bottom: solid #c94949;
   width: 4rem;
 }
 
 .grid-container {
   position: relative;
-  width: 50vw;
+  width: 50rem;
   height: auto;
   background-color: #1d1d1d;
   margin-left: auto;
@@ -36,31 +36,34 @@ body {
 }
 
 .orgContainer {
-  min-width: 10vw;
+  cursor: pointer;
 }
 
 .orgTab {
   position: relative;
-  border-width: 0.5rem;
+  border-width: 6px;
   border-color: rgb(51, 51, 51);
   border-style: solid;
   background-color: #1d1d1d;
   justify-content: center;
   color: rgb(0, 0, 0, 0);
-  height: 10vw;
+  height: 11.375rem;
   transition: 0.5s;
   display: flex;
   flex-direction: column;
   resize: vertical;
-  background-size: 75%, 75%;
+  background-size: 65%, 65%;
   background-repeat: no-repeat;
   background-position: center, center;
 }
 
 .orgTab p {
+  text-transform: uppercase;
   margin: 0;
   text-align: center;
-  font-weight: 800;
+  font-size: 1,6rem;
+  font-weight: 700;
+  padding: 1rem;
 }
 
 .orgTab:hover {
@@ -228,13 +231,13 @@ body {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 960px) {
   .grid-container {
-    width: 90vw;
+    width: 35rem;
   }
 
   .orgTab {
-    height: 40vw;
+    height: 10.6661rem;
   }
   .orgTab p {
     margin: 0;
@@ -282,5 +285,15 @@ body {
   .orgTitle {
     font-size: 1.5rem;
     padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .grid-container {
+    width: 90vw;
+  }
+
+  .orgTab {
+    height: 42vw;
   }
 }

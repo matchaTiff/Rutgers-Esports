@@ -96,11 +96,11 @@ function ClubsGrid(props){
 
                            
                                 
-                            <Grid item xs={6} sm={3} >
+                            <Grid item xs={6} sm={4} md={3} lg={3}>
                                 <div className="orgContainer">
                                     <div  className="orgTab" style={{backgroundImage: "url(" +  club.logo  + ")"}} onClick={() => visibility(club)}>
                                         {/*The following changes size based on amount of characters and viewport width*/}
-                                        <p style={{fontSize: (33-club.name.length)*0.055+"vw"}}> {club.name}</p>   
+                                        <p> {club.name}</p>   
                                     </div>
                                     
                                 </div>

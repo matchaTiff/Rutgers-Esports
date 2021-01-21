@@ -7,6 +7,7 @@
     width: 100%;
     overflow: hidden;
     margin-top: 91px;
+    margin-bottom: 0;
 }
 
 .jumbotron video {
