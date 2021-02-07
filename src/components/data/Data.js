@@ -1,9 +1,12 @@
 import React, { Component }  from 'react';
 
+export const homepageVideoURL = "https://r3---sn-ab5l6ndy.c.drive.google.com/videoplayback?expire=1610793951&ei=n4sCYL-yIcj48gS8iZroDg&ip=100.1.141.183&cp=QVRGUkhfUllTQlhPOnpCVGZPZ2p6cFY5LS1RYmlHUi12dWdEM0FFbUZJbzdYWEw1ZVV5ZU9MN0o&id=8d039b71905261b7&itag=18&source=webdrive&requiressl=yes&mh=CA&mm=32&mn=sn-ab5l6ndy&ms=su&mv=m&mvi=3&pl=17&sc=yes&ttl=transient&susc=dr&driveid=15V7SSOwWvo1d22mBFPUWI1HfvPaZHbxo&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=122.508&lmt=1599183134713125&mt=1610779216&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIhAJNLGXfew6c6Cf376Uhr2KEfgZA12g9VBJpsX-l_SbY9AiAQ6u_mwr2Ou5KmkOP8D7hpL4AMvzl37ockip6RdAWDew==&lsparams=mh,mm,mn,ms,mv,mvi,pl,sc&lsig=AG3C_xAwRAIgGGtrAwNZAKpuVjaxqmqFNgMg9MmrUEJIDv4e39ecVr8CID5rtvXH4S0JMxWHNVLVR3HUB3NkDUonuBwF92JN_oGn&cpn=T7z8uQEA5q89fNLp&c=WEB_EMBEDDED_PLAYER&cver=20210113";
+
 export const heroData = {
     headline: 'Rutgers Esports',
     slogan: 'Live, Love, Laugh',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut ultrices justo. Quisque euismod sed lorem et convallis. Praesent finibus turpis elit. Aenean varius suscipit libero, nec finibus mauris tristique eu.'
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut ultrices justo. Quisque euismod sed lorem et convallis. Praesent finibus turpis elit. Aenean varius suscipit libero, nec finibus mauris tristique eu.',
+    videoSourceURL: homepageVideoURL
 }
 
 // Basic Page Data
@@ -15,7 +18,7 @@ export const competitivePage = {
         </p>
         <b>Teams</b>
         <p>
-            Rutgers University has teams for Rocket League, DOTA 2, CS:GO, and more. Tryouts for each happen every semester, and every Rutgers student is welcome to try and join. We compete in collegiate tournaments against other schools, and most of our games are streamed on twitch.tv/rutgersesports. Most teams have both an A-team and a B-team, generally designated Division I and Division II. 
+            Rutgers University has teams for Rocket reague, DOTA 2, CS:GO, and more. Tryouts for each happen every semester, and every Rutgers student is welcome to try and join. We compete in collegiate tournaments against other schools, and most of our games are streamed on twitch.tv/rutgersesports. Most teams have both an A-team and a B-team, generally designated Division I and Division II. 
         </p>
         <b>Coaching</b>
         <p>
