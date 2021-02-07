@@ -26,8 +26,9 @@ function Navbar() {
                 About
               </Link>
               <div className="dropdown-menu fade-down" aria-labelledby="navbarDropdown">
-                <Link to='#' className="dropdown-item">Our Community</Link>
+                <Link to='/community' className="dropdown-item">Our Community</Link>
                 <Link to='/competitive' className="dropdown-item">Competitive</Link>
+                <Link to='/discord' className="dropdown-item">Discord</Link>
               </div>
             </li>
             <li className="nav-item">
