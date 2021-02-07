@@ -1,11 +1,38 @@
 import React, { Component } from "react";
+import logo from './logo.png';
+import './Footer.css';
 
 class Footer extends Component {
   render() {
     return (
-        <footer>
-            Footer
+      <wrapper className="d-flex flex-column">
+        <main className="flex-fill"></main>
+        <footer className="pb-5">
+          <div className="container">
+            <hr />
+            <div className="info">
+              <div className="left">
+                <img className="logo" src={logo} />
+                <div className="contact">
+                  <div className="text-muted">ADDRESS</div>613 George St. New Brunswick, NJ 08901
+                  <br /><br />
+                  <div className="text-muted">EMAIL</div>rutgersesports@gmail.com
+                </div>
+              </div>
+              <div className="socials">
+                <a href="https://www.facebook.com/rutgersesports/"><i className="fab fa-facebook-f fa-2x"></i></a>
+                <a href="https://twitter.com/RutgersEsports"><i className="fab fa-twitter fa-2x"></i></a>
+                <a href="https://twitch.tv/rutgersesports"><i className="fab fa-twitch fa-2x"></i></a>
+                <a href="https://www.youtube.com/channel/UC3JwKYbQ_PaX7uZF07Ni00w"><i className="fab fa-youtube fa-2x"></i></a>
+                <a href="https://www.linkedin.com/company/rutgers-esports/about/"><i className="fab fa-linkedin-in fa-2x"></i></a>
+                <a href="https://www.instagram.com/rutgersesports/"><i className="fab fa-instagram fa-2x"></i></a>
+                <a href="mailto:rutgersesports@gmail.com"><i className="fas fa-envelope fa-2x"></i></a>
+              </div>
+            </div>
+            <div className="copyright"><i className="far fa-copyright fa-xs"></i> 2021 Rutgers Esports</div>
+          </div>
         </footer>
+      </wrapper>
     );
   }
 }
