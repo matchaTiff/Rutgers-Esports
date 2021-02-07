@@ -3,7 +3,6 @@ import './Discord.css';
 import HeroSection from "./HeroSection";
 import ServersGrid from "./ServersGrid";
 import GenericServerGrid from "./GenericServerGrid.js";
-// import OtherGameServerGrid from "./OtherGamesServerGrid";
 import rutgersServers from '../data/RutgersServers.js';
 import otherGames from '../data/OtherGameServers.js';
  
@@ -11,7 +10,7 @@ import otherGames from '../data/OtherGameServers.js';
 function Discord() {
     return (
         <>
-            <div className="cotainer-fluid background">
+            <div className="background">
                 <HeroSection {...{
                     headline: 'Rutgers Esports Discord Server',
                     slogan: 'Want to join the server? Hop on in!',

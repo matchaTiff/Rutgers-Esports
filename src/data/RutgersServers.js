@@ -17,7 +17,7 @@ export default [
     {
         name: "Rutgers ECE",
         link: "https://discord.gg/cRCHFY2sjd",
-        icon: "Pictures/placeholder.png"
+        icon: "Pictures/RutgersServers/RUECE.gif"
     },
     {
         name: "Rutgers IEEE",
