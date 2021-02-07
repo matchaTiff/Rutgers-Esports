@@ -22,6 +22,7 @@ function Discord() {
                         alt: 'Discord Logo'
                     } /* Would like the image here to be right-aligned */
                 }}></HeroSection>
+                <iframe title="Rutgers Esports" align="right" src="https://discord.com/widget?id=143013824679641088&theme=dark" width="350" height="350" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                 <h1 class="new-section">About</h1>
                 <h4 class="important">Rutgers Esports Discord is <em>the</em> main hub for all things Rutgers Esports!:</h4>
                 <p class="about"> {/* You can change this to whatever idrc */}
