@@ -1,0 +1,32 @@
+h1.new-section {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+p.about {
+    color: #dbdbdb;
+    text-align: left;
+    padding-left: 30px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+h4.important {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    line-height: 50px;
+}
+
+img.centerblock {
+    display:block;
+    margin:auto;
+}
+
+img.logo-group-horizontal {
+    padding-left: 15px;
+    padding-right: 15px;
+}
