@@ -4,7 +4,7 @@
 
 1. Clone: `git clone https://github.com/matchaTiff/Rutgers-Esports.git`
 2. `npm i`
-3. `npm prep` (this downloads large files such as videos)
+3. `npm run prep` (this downloads large files such as videos)
 4. `npm start`
 
 # React README
