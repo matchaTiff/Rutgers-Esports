@@ -4,7 +4,7 @@ h1.new-section {
     padding-top: 30px;
 }
 
-p.about {
+.aboutSection {
     color: #dbdbdb;
     text-align: left;
     padding-left: 30px;
@@ -17,16 +17,21 @@ h4.important {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 30px;
+    padding-left: 6rem;
+    padding-right: 6rem;
     line-height: 50px;
 }
 
-img.centerblock {
-    display:block;
-    margin:auto;
+.social-links {
+    color: white;
+    font-weight: bold;
 }
 
-img.logo-group-horizontal {
-    padding-left: 15px;
-    padding-right: 15px;
+.social-links p{
+    padding-top: 1.5rem;
+}
+
+.horizontal-group {
+    margin-left:50px;
+    margin-right:50px;
 }
