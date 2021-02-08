@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import HeroSection from "./HeroSection";
 import {heroData} from './data/Data.js';
 import TeamsGrid from './TeamsGrid.js';
