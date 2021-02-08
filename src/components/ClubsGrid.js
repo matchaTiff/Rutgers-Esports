@@ -35,7 +35,7 @@ function ClubsGrid(props){
 
     return(
         <div>
-            <div className="cotainer-fluid background">
+            <div className="section-container">
                 <div className="title">OUR CLUBS</div>
                 {visible && <div className="popUpBackground" >
                     <div className="filler" onClick={() => visibility(clubPop)}></div>

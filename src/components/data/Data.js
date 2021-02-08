@@ -1,6 +1,6 @@
-import React, { Component }  from 'react';
+import React  from 'react';
 
-export const homepageVideoURL = "https://r3---sn-ab5l6ndy.c.drive.google.com/videoplayback?expire=1610793951&ei=n4sCYL-yIcj48gS8iZroDg&ip=100.1.141.183&cp=QVRGUkhfUllTQlhPOnpCVGZPZ2p6cFY5LS1RYmlHUi12dWdEM0FFbUZJbzdYWEw1ZVV5ZU9MN0o&id=8d039b71905261b7&itag=18&source=webdrive&requiressl=yes&mh=CA&mm=32&mn=sn-ab5l6ndy&ms=su&mv=m&mvi=3&pl=17&sc=yes&ttl=transient&susc=dr&driveid=15V7SSOwWvo1d22mBFPUWI1HfvPaZHbxo&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=122.508&lmt=1599183134713125&mt=1610779216&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIhAJNLGXfew6c6Cf376Uhr2KEfgZA12g9VBJpsX-l_SbY9AiAQ6u_mwr2Ou5KmkOP8D7hpL4AMvzl37ockip6RdAWDew==&lsparams=mh,mm,mn,ms,mv,mvi,pl,sc&lsig=AG3C_xAwRAIgGGtrAwNZAKpuVjaxqmqFNgMg9MmrUEJIDv4e39ecVr8CID5rtvXH4S0JMxWHNVLVR3HUB3NkDUonuBwF92JN_oGn&cpn=T7z8uQEA5q89fNLp&c=WEB_EMBEDDED_PLAYER&cver=20210113";
+export const homepageVideoURL = "https://cdn-cf-east.streamable.com/video/mp4/wduiok.mp4?Expires=1613007120&Signature=JfEttG1i1xWVA7Up6UbrPcNwSQvW5mkbwMRq~BHZ~~JvdU~AAXZz9f6gAzNfu9kqfxGJnd8IlsGDcssi13UDmLw3-VJ3dzqlyPg7vcDe8d291JwclGcuC9eSU4T5S3~3Kr4I8MkNvYsYeeir8KKzdoCJrXqV2Qv6DL~I1IKNpe3Ov~dbeWmE72LqjhP1Fq1qCu4YtHj7HrRseGLvVMgFaPFvtYxXSEsNy6ZAh3fg9xZwA4fuYEPyYmDOSydIS~xKMdujU4zP3xW6DGNbI0GjQpLqypIyRL4XAlkyaTMZDaJ9mYCMYrb~S8o2nHVjASvcGj6M90MZc6vwG6OfRzUD~Q__&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ";
 
 export const heroData = {
     headline: 'Rutgers Esports',
@@ -45,7 +45,7 @@ export const communityPage = {
         </p>
         <b>Discord</b>
         <p>
-            On top of all that, we also have a Discord server. We have channels for each and every game, we keep you posted on upcoming meetings and events, there’s a school survival channel where you can discuss assignments with fellow students, and of course a general chat to hang out in and get to know people. Any in-houses are ran through the discord, and we occasionally host larger events and games, so come join us at discord.gg/rutgersesports
+            On top of all that, we also have a Discord server. We keep you posted on upcoming meetings and events, there’s a school survival channel where you can discuss assignments with fellow students, and of course a general chat to hang out in and get to know people. Any in-houses are ran through the discord, and we occasionally host larger events and games, so come join us at discord.gg/rutgersesports
         </p>
     </span>
 }
