@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from './logo.png';
+import logo from './black_logo.svg';
 import './Footer.css';
 
 class Footer extends Component {
@@ -23,6 +23,7 @@ class Footer extends Component {
                 <a href="https://www.facebook.com/rutgersesports/"><i className="fab fa-facebook-f fa-2x"></i></a>
                 <a href="https://twitter.com/RutgersEsports"><i className="fab fa-twitter fa-2x"></i></a>
                 <a href="https://twitch.tv/rutgersesports"><i className="fab fa-twitch fa-2x"></i></a>
+                <a href="https://discord.gg/rutgersesports"><i className="fab fa-discord fa-2x"></i></a>
                 <a href="https://www.youtube.com/channel/UC3JwKYbQ_PaX7uZF07Ni00w"><i className="fab fa-youtube fa-2x"></i></a>
                 <a href="https://www.linkedin.com/company/rutgers-esports/about/"><i className="fab fa-linkedin-in fa-2x"></i></a>
                 <a href="https://www.instagram.com/rutgersesports/"><i className="fab fa-instagram fa-2x"></i></a>
