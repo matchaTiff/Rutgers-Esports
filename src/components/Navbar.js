@@ -1,7 +1,7 @@
 import React from "react";
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import logosdata from "../data/logosdata";
+import logosdata from "../data/logosdata.js";
 
 function Navbar() {
   return (
