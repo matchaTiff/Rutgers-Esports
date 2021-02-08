@@ -10,6 +10,10 @@ h1.new-section {
     padding-left: 30px;
     font-weight: 700;
     line-height: 30px;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 h4.important {
@@ -17,9 +21,12 @@ h4.important {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    line-height: 50px;
+}
+
+.rutgers-kun-section {
     padding-left: 6rem;
     padding-right: 6rem;
-    line-height: 50px;
 }
 
 .social-links {

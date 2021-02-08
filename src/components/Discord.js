@@ -21,8 +21,8 @@ function Discord() {
                     }
                 }}>
             </HeroSection>
-
-            <div className="aboutSection background">
+            
+            <div className="aboutSection">
                 <iframe title="Rutgers Esports" align="right" src="https://discord.com/widget?id=143013824679641088&theme=dark" width="350" height="350" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                 <h1 class="new-section">About</h1>
                 <h4 class="important">Rutgers Esports Discord is <em>the</em> main hub for all things Rutgers Esports!</h4>
@@ -35,16 +35,16 @@ function Discord() {
                 </p>
             </div>
 
-            <div className="servers background">
+            <div className="servers section-container">
                 <h1 class="new-section">Server Directory</h1>
                 <ServersGrid gridTitle="Clubs"/>
                 <GenericServerGrid gridTitle="Other Games" items={otherGames}/>
                 {/* There's some weird spacing issue here */}
-                <GenericServerGrid gridTitle="Rutgers-related" items={rutgersServers}/>
+                <GenericServerGrid gridTitle="Rutgers-Related" items={rutgersServers}/>
                 {/* Here too */}
             </div>
 
-            <div className="rutgers_kun text-center background">
+            <div className="rutgers-kun-section text-center section-container">
                 <a href="https://github.com/sriRacha21/Rutgers-kun3/blob/master/README.md">
                     <img src="/Pictures/Branding/Rutgers-kun/Chibirkun_horizontal_text.png" alt="Rutgers-kun Horizontal"></img>
                 </a>

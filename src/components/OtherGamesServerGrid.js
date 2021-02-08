@@ -7,7 +7,7 @@ import otherGames from '../data/OtherGameServers.js';
 function OtherGameServerGrid(props){
 
     return (
-        <div className="cotainer-fluid background">
+        <div className="section-container">
             <div className="title">Other Games</div>
             <div className="grid-container">
                 <Grid container spacing={3}>

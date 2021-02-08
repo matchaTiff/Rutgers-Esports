@@ -43,7 +43,7 @@
 
 .home_hero {
     margin: 0;
-    padding-left: 50px;
+    padding-left: 5rem;
     width: 50%;
 }
 
@@ -94,12 +94,3 @@
         text-align: center;
     }
 }
-
-/* @media (pointer: coarse) and (hover: none) {
-  .hero {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
-  }
-  .hero video {
-    display: none;
-  }
-} */

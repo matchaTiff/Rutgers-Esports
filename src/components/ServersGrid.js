@@ -10,7 +10,7 @@ function ServersGrid({ gridTitle }){
     const info = clubs.orgs;
 
     return(
-        <div className="cotainer-fluid background">
+        <div className="section-container">
             <div className="title">{gridTitle}</div>
             <div className="grid-container">
                 <Grid container spacing={3}>
