@@ -42,11 +42,12 @@ img {
     margin: 0 .8rem;
 }
 
-.fa-facebook-f, .fa-twitter, .fa-twitch, .fa-youtube, .fa-linkedin-in, .fa-instagram, .fa-envelope {transition: .3s;}
+.fa-facebook-f, .fa-twitter, .fa-twitch, .fa-discord, .fa-youtube, .fa-linkedin-in, .fa-instagram, .fa-envelope {transition: .3s;}
 
 .fa-facebook-f:hover {color: #4B5891;}
 .fa-twitter:hover {color: #3099E1;}
 .fa-twitch:hover {color: #70439C;}
+.fa-discord:hover {color: #7289DA;}
 .fa-youtube:hover {color: #CE2524;}
 .fa-linkedin-in:hover {color: #1673AB;}
 .fa-instagram:hover {color: #382A2A;}
