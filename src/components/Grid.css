@@ -5,7 +5,6 @@ body {
 .background {
   position: relative;
   background-color: #1d1d1d;
-  min-height: 85vh;
   padding-bottom: 3rem;
 }
 
