@@ -6,7 +6,7 @@ import '@brainhubeu/react-carousel/lib/style.css';
 
 function GenericServerGrid({ gridTitle, items }){
     return (
-        <div className="cotainer-fluid background">
+        <div className="background">
             <div className="title">{gridTitle}</div>
             <div className="grid-container">
                 <Grid container spacing={3}>
