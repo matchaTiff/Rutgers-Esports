@@ -1,8 +1,6 @@
 import React from "react";
 import './Grid.css';
-import './Socials.css';
 import Grid from '@material-ui/core/Grid';
-import '@brainhubeu/react-carousel/lib/style.css';
 
 function GenericServerGrid({ gridTitle, items }){
     return (

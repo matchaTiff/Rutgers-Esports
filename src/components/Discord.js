@@ -17,7 +17,7 @@ function Discord() {
                     sloganURL: 'https://discord.gg/rutgersesports',
                     description: 'This Discord server is the hub for all things Rutgers Esports.',
                     imageProps: {
-                        url: '/Pictures/ThirdParty/Discord.webp',
+                        url: '/Pictures/ThirdParty/discordHero.svg',
                         alt: 'Discord Logo'
                     } /* Would like the image here to be right-aligned */
                 }}></HeroSection>

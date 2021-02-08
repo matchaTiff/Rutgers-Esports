@@ -16,7 +16,7 @@ function HeroSection({
       }) : null}
       <div className="overlay"></div>
       <div className="home_hero container">
-        <h1 className="heading text-truncate">{headline}</h1>
+        <h1 className="heading">{headline}</h1>
         <h4 className="slogan">
           <a {...sloganAttributes}>
             {slogan}
@@ -46,9 +46,7 @@ function insertImage({
   url, alt
 }) {
   return (
-      <img src={url} alt={alt} style={{
-        height: "80%",
-        width: "auto"
+      <img className="heroBackground" src={url} alt={alt} style={{
       }}/>
   )
 }
