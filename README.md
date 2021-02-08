@@ -1,3 +1,14 @@
+# Rutgers Esports New Website
+
+## Run locally
+
+1. Clone: `git clone https://github.com/matchaTiff/Rutgers-Esports.git`
+2. `npm i`
+3. `npm run prep` (this downloads large files such as videos)
+4. `npm start`
+
+# React README
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
