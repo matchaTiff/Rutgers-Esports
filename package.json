@@ -24,7 +24,7 @@
     "start": "react-scripts start",
     "wslstart": "CHOKIDAR_USEPOLLING=true react-scripts start",
     "build": "react-scripts build",
-    "prep": "cd src/scripts && npm start && cd ../..",
+    "prep": "cd src/scripts && npm i && npm start && cd ../..",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
