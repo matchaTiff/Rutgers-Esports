@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from './black_logo.svg';
+import logosdata from '../data/logosdata.js';
 import './Footer.css';
 
 class Footer extends Component {
@@ -12,7 +12,7 @@ class Footer extends Component {
             <hr />
             <div className="info">
               <div className="left">
-                <img className="logo" src={logo} />
+                <img className="logo" src={logosdata.black.logo} />
                 <div className="contact">
                   <div className="text-muted">ADDRESS</div>613 George St. New Brunswick, NJ 08901
                   <br /><br />

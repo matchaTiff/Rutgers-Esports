@@ -1,14 +1,14 @@
 import React from "react";
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import logo from './logo.svg';
+import logosdata from "../data/logosdata";
 
 function Navbar() {
   return (
     <header>
       <nav className="navbar navbar-expand-lg fixed-top">
         <Link to='/' className='navbar-brand p-0'>
-          <img src={logo} width="75" height="75" alt="logo"/>
+          <img src={logosdata.red.logo} width="75" height="75" alt="logo"/>
         </Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i className="fas fa-bars"></i>
