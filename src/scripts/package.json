@@ -1,0 +1,15 @@
+{
+  "name": "rutgers-esports-website-scripts",
+  "version": "0.0.1",
+  "description": "Prepare the repository for use by downloading necessary large files.",
+  "main": "download-videos.js",
+  "scripts": {
+    "start": "node download-large-files.js",
+    "test": "node download-large-files.js"
+  },
+  "author": "sriRacha21",
+  "license": "ISC",
+  "dependencies": {
+    "ytdl-core": "^4.4.5"
+  }
+}

@@ -1,6 +1,7 @@
 import React  from 'react';
 
-export const homepageVideoURL = "https://cdn-cf-east.streamable.com/video/mp4/wduiok.mp4?Expires=1613007120&Signature=JfEttG1i1xWVA7Up6UbrPcNwSQvW5mkbwMRq~BHZ~~JvdU~AAXZz9f6gAzNfu9kqfxGJnd8IlsGDcssi13UDmLw3-VJ3dzqlyPg7vcDe8d291JwclGcuC9eSU4T5S3~3Kr4I8MkNvYsYeeir8KKzdoCJrXqV2Qv6DL~I1IKNpe3Ov~dbeWmE72LqjhP1Fq1qCu4YtHj7HrRseGLvVMgFaPFvtYxXSEsNy6ZAh3fg9xZwA4fuYEPyYmDOSydIS~xKMdujU4zP3xW6DGNbI0GjQpLqypIyRL4XAlkyaTMZDaJ9mYCMYrb~S8o2nHVjASvcGj6M90MZc6vwG6OfRzUD~Q__&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ";
+// export const homepageVideoURL = "https://cdn-cf-east.streamable.com/video/mp4/wduiok.mp4?Expires=1613007120&Signature=JfEttG1i1xWVA7Up6UbrPcNwSQvW5mkbwMRq~BHZ~~JvdU~AAXZz9f6gAzNfu9kqfxGJnd8IlsGDcssi13UDmLw3-VJ3dzqlyPg7vcDe8d291JwclGcuC9eSU4T5S3~3Kr4I8MkNvYsYeeir8KKzdoCJrXqV2Qv6DL~I1IKNpe3Ov~dbeWmE72LqjhP1Fq1qCu4YtHj7HrRseGLvVMgFaPFvtYxXSEsNy6ZAh3fg9xZwA4fuYEPyYmDOSydIS~xKMdujU4zP3xW6DGNbI0GjQpLqypIyRL4XAlkyaTMZDaJ9mYCMYrb~S8o2nHVjASvcGj6M90MZc6vwG6OfRzUD~Q__&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ";
+export const homepageVideoURL = "/Videos/homepage-video.mp4";
 
 export const heroData = {
     headline: 'Rutgers Esports',
