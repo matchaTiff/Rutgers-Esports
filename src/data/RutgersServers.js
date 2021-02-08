@@ -22,7 +22,7 @@ export default [
     {
         name: "Rutgers IEEE",
         link: "https://discord.gg/HdGHgDa",
-        icon: "Pictures/placeholder.png"
+        icon: "Pictures/RutgersServers/RUIEEE.gif"
     },
     {
         name: "Rutgers Mathcord",

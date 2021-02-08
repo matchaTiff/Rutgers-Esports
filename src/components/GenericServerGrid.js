@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 
 function GenericServerGrid({ gridTitle, items }){
     return (
-        <div className="cotainer-fluid background">
+        <div className="background">
             <div className="title">{gridTitle}</div>
             <div className="grid-container">
                 <Grid container spacing={3}>
