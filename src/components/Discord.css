@@ -1,27 +1,59 @@
-h1.new-section {
+.servers h2 {
     color: white;
     text-align: center;
-    padding-top: 30px;
+}
+
+.aboutInfo {
+    padding-right: 6rem;
+}
+
+.aboutInfo h2 {
+    color: white;
+    padding-bottom: 1.5rem;
+}
+
+.aboutInfo h4 {
+    padding-bottom: 1rem;
+}
+
+.aboutInfo p {
+    color: rgb(209, 209, 209);
+}
+
+@media (min-width: 992px) {
+    .aboutSection {
+        justify-content: center;
+        display: flex;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .aboutInfo {
+        padding-bottom: 5rem;
+        padding-right: 0;
+    }
+
+    .aboutSection {
+        text-align: center;
+    }
 }
 
 .aboutSection {
-    color: #dbdbdb;
-    text-align: left;
-    padding-left: 30px;
-    font-weight: 700;
-    line-height: 30px;
+    color: white;
+    line-height: 1.7;
     padding-left: 6rem;
     padding-right: 6rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
 
-h4.important {
+.important {
     color: white;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     line-height: 50px;
+    font-size: 1.3rem;
 }
 
 .rutgers-kun-section {
