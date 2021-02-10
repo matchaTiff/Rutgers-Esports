@@ -26,6 +26,7 @@
     "build": "react-scripts build",
     "prep": "cd src/scripts && npm i && npm start && cd ../..",
     "test": "react-scripts test",
+    "lint": "eslint .",
     "eject": "react-scripts eject",
     "postinstall": "husky install"
   },
