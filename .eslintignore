@@ -1,0 +1,8 @@
+# ignore inner node_modules from script
+/src/scripts/node_modules/**
+
+# this looks to be some kind of boilerplate
+/src/serviceWorker.js
+
+# I have no idea what this is
+/src/App.test.js

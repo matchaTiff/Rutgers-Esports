@@ -27,3 +27,6 @@ yarn-error.log*
 /public/Videos/*
 # not this one so that we can keep the folder
 !/public/Videos/placeholder.txt
+
+# cache
+.eslintcache
