@@ -5,8 +5,8 @@ export const homepageVideoURL = '/Videos/homepage-video.mp4';
 
 export const heroData = {
     headline: 'Rutgers Esports',
-    slogan: 'Live, Love, Laugh',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut ultrices justo. Quisque euismod sed lorem et convallis. Praesent finibus turpis elit. Aenean varius suscipit libero, nec finibus mauris tristique eu.',
+    slogan: 'The largest collegiate Esports organization on the east coast',
+    description: 'Rutgers Esports is one of the largest Esports Organizations in the country, with hundreds of active members and a number of alumni involved in Esports. We strive to build a healthy, inclusive community where everyone is welcome to come out and play games.',
     videoSourceURL: homepageVideoURL,
 };
 

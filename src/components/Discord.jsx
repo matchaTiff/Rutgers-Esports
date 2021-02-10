@@ -28,12 +28,12 @@ function Discord() {
                     <h2>About</h2>
                     <h4>
                         Rutgers Esports Discord is
+                        {' '}
                         <em>the</em>
                         {' '}
                         main hub for all things Rutgers Esports!
                     </h4>
                     <p>
-                        {' '}
                         {/* You can change this to whatever idrc */}
                         <ul>
                             <li>Get important announcements regarding events and opportunities within Rutgers Esports and the larger collegiate Esports scene in the northeast!</li>
