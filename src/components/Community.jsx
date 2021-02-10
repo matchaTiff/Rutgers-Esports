@@ -3,8 +3,12 @@ import BasicPage from './BasicPage';
 import { communityPage } from './data/Data';
 
 function Community() {
+    const {
+        pageTitle,
+        pageContent,
+    } = communityPage;
     return (
-        <BasicPage {...communityPage} />
+        <BasicPage pageTitle={pageTitle} pageContent={pageContent} />
     );
 }
 

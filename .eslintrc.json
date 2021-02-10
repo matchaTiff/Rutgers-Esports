@@ -23,6 +23,15 @@
     ],
     "rules": {
         "indent": ["error", 4],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "react/jsx-props-no-spreading": 0,
+        "react/prop-types": "off",
         "semi": ["error", "always"]
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
     }
 }

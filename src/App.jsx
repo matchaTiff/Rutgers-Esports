@@ -12,17 +12,17 @@ import Community from './components/Community';
 
 function App() {
     return (
-      <Router>
-          <Navbar />
-          <Switch>
-              <Route path="/" exact component={HomePage} />
-              <Route path="/competitive" exact component={Competitive} />
-              <Route path="/community" exact component={Community} />
-              <Route path="/discord" exact component={Discord} />
+        <Router>
+            <Navbar />
+            <Switch>
+                <Route path="/" exact component={HomePage} />
+                <Route path="/competitive" exact component={Competitive} />
+                <Route path="/community" exact component={Community} />
+                <Route path="/discord" exact component={Discord} />
             </Switch>
-          {/* <HeroSection />
+            {/* <HeroSection />
       <HomePage /> */}
-          <Footer />
+            <Footer />
         </Router>
     );
 }
