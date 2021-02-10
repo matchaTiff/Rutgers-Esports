@@ -1,13 +1,13 @@
-import React from "react";
-import BasicPage from "./BasicPage";
-import {competitivePage} from './data/Data.js';
+import React from 'react';
+import BasicPage from './BasicPage';
+import { competitivePage } from './data/Data.js';
 
 function Competitive() {
-  return (
-    <>
-      <BasicPage {...competitivePage} />
-    </>
-  )
+    return (
+      <>
+          <BasicPage {...competitivePage} />
+        </>
+    );
 }
 
 export default Competitive;

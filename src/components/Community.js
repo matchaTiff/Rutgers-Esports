@@ -4,8 +4,8 @@ import { communityPage } from './data/Data';
 
 function Community() {
     return (
-      <BasicPage {...communityPage} />
+        <BasicPage {...communityPage} />
     );
 }
- 
+
 export default Community;

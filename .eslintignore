@@ -1,0 +1,2 @@
+# ignore inner node_modules from script
+**/node_modules/**
