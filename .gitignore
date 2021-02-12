@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/src/scripts/node_modules
 /.pnp
 .pnp.js
 
@@ -21,3 +22,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# large files
+/public/Videos/*
+# not this one so that we can keep the folder
+!/public/Videos/placeholder.txt
+
+# cache
+.eslintcache

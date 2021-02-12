@@ -1,0 +1,76 @@
+.servers h2 {
+    color: white;
+    text-align: center;
+}
+
+.aboutInfo {
+    padding-right: 6rem;
+}
+
+.aboutInfo h2 {
+    color: white;
+    padding-bottom: 1.5rem;
+}
+
+.aboutInfo h4 {
+    padding-bottom: 1rem;
+}
+
+.aboutInfo p {
+    color: rgb(209, 209, 209);
+}
+
+@media (min-width: 992px) {
+    .aboutSection {
+        justify-content: center;
+        display: flex;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .aboutInfo {
+        padding-bottom: 5rem;
+        padding-right: 0;
+    }
+
+    .aboutSection {
+        text-align: center;
+    }
+}
+
+.aboutSection {
+    color: white;
+    line-height: 1.7;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.important {
+    color: white;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    line-height: 50px;
+    font-size: 1.3rem;
+}
+
+.rutgers-kun-section {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.social-links {
+    color: white;
+    font-weight: bold;
+}
+
+.social-links p{
+    padding-top: 1.5rem;
+}
+
+.horizontal-group {
+    margin-left:50px;
+    margin-right:50px;
+}
