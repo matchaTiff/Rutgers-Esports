@@ -1,8 +1,13 @@
 /* wrapper {
     min-height: 100vh;
  } */
- 
- .flex-fill {
+
+ .container {
+    max-width: 100%;
+    padding: 0 5rem;
+}
+
+.flex-fill {
     flex: 1 1 auto;
  }
 
@@ -67,3 +72,20 @@ h5 {
 hr {
     background-color: #767676;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+      padding: 0 1.3rem;
+    }
+  
+    .info {
+      padding: 0 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .socials {
+        margin-top: 3rem;
+    }
+
+  }
