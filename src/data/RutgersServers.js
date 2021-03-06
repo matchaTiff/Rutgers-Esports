@@ -32,6 +32,6 @@ export default [
     {
         name: 'Rutgers Playground',
         link: 'https://discord.gg/f43cj3g',
-        icon: '/Pictures/RutgersServers/RPG.png',
+        icon: '/Pictures/RutgersServers/RPG.gif',
     },
 ];
