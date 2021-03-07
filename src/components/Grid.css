@@ -76,8 +76,8 @@ body {
 
 .exitPop {
   position: absolute;
-  left: 72.5%;
-  padding-top: 0.5rem;
+  left: 67.5%;
+  padding-top: 1.5rem;
   font-size: 1.5rem;
   color: white;
   transition: 0.5s;
@@ -89,10 +89,10 @@ body {
 }
 
 .popUpBackground {
-  position: absolute; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
   left: 0;
-  top: 0;
+  top: 2rem;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   /* Enable scroll if needed */
