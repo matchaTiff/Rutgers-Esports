@@ -53,7 +53,7 @@ function ClubsGrid() {
                                 role="button"
                                 tabIndex="0"
                             >
-                                Exit Pop
+                                Exit Pop &nbsp;
                                 <i className="fas fa-times" />
                             </div>
                             <div className="orgTitle">
